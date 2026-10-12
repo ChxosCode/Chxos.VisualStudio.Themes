@@ -1,0 +1,89 @@
+{
+  "SchemaVersion": 1,
+  "Packages": [
+    {
+      "Key": "foundation",
+      "Identity": "Chxos.Foundation.VisualStudio.Theme",
+      "Version": "1.0.0",
+      "Publisher": "Chxos",
+      "DisplayName": "Foundation Theme",
+      "Themes": [
+        "Foundation.vstheme"
+      ],
+      "Distribution": "public",
+      "Description": "Foundation Theme: Foundation. Themes for Visual Studio 2026.",
+      "Tags": "visual studio;2026;dark;foundation;theme",
+      "Icon": "assets/packages/foundation/icon.png",
+      "PreviewImage": "assets/packages/foundation/preview.png"
+    },
+    {
+      "Key": "pinknoise",
+      "Identity": "Chxos.Pinknoise.VisualStudio.Theme",
+      "Version": "1.0.0",
+      "Publisher": "Chxos",
+      "DisplayName": "Pinknoise Theme",
+      "Themes": [
+        "Pinknoise.vstheme"
+      ],
+      "Distribution": "public",
+      "Description": "Pinknoise Theme: Pinknoise. Themes for Visual Studio 2026.",
+      "Tags": "visual studio;2026;dark;pinknoise;theme",
+      "Icon": "assets/packages/pinknoise/icon.png",
+      "PreviewImage": "assets/packages/pinknoise/preview.png"
+    },
+    {
+      "Key": "cosmora",
+      "Identity": "Chxos.Cosmora.VisualStudio.ThemePack",
+      "Version": "1.0.0",
+      "Publisher": "Chxos",
+      "DisplayName": "Cosmora Theme Pack",
+      "Themes": [
+        "Cosmora.vstheme",
+        "CosmoraBlueshift.vstheme",
+        "CosmoraRedshift.vstheme",
+        "CosmoraUltraviolet.vstheme"
+      ],
+      "Distribution": "public",
+      "Description": "Cosmora Theme Pack: Cosmora, Cosmora Blueshift, Cosmora Redshift, Cosmora Ultraviolet. Themes for Visual Studio 2026.",
+      "Tags": "visual studio;2026;dark;cosmora;theme",
+      "Icon": "assets/packages/cosmora/icon.png",
+      "PreviewImage": "assets/packages/cosmora/preview.png"
+    },
+    {
+      "Key": "all-dev",
+      "Identity": "Chxos.Themes.VisualStudio.AllDev",
+      "Version": "1.0.0",
+      "Publisher": "Chxos",
+      "DisplayName": "Theme Collection — Development",
+      "Themes": [
+        "Amberroot.vstheme",
+        "Aquatoxic.vstheme",
+        "Biolume.vstheme",
+        "Cosmora.vstheme",
+        "CosmoraBlueshift.vstheme",
+        "CosmoraRedshift.vstheme",
+        "CosmoraUltraviolet.vstheme",
+        "Foundation.vstheme",
+        "Hardline.vstheme",
+        "Nightglass.vstheme",
+        "Nullsector.vstheme",
+        "Pinknoise.vstheme",
+        "Silverphase.vstheme"
+      ],
+      "Distribution": "internal",
+      "Description": "Theme Collection — Development: Amberroot, Aquatoxic, Biolume, Cosmora, Cosmora Blueshift, Cosmora Redshift, Cosmora Ultraviolet, Foundation, Hardline, Nightglass, Nullsector, Pinknoise, Silverphase. Themes for Visual Studio 2026.",
+      "Tags": "visual studio;2026;dark;all-dev;theme",
+      "Icon": "assets/packages/all-dev/icon.png",
+      "PreviewImage": "assets/packages/all-dev/preview.png"
+    }
+  ],
+  "DeferredPublicThemes": [
+    "Amberroot.vstheme",
+    "Aquatoxic.vstheme",
+    "Biolume.vstheme",
+    "Hardline.vstheme",
+    "Nightglass.vstheme",
+    "Nullsector.vstheme",
+    "Silverphase.vstheme"
+  ]
+}

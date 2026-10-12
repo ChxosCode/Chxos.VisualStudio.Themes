@@ -1,0 +1,54 @@
+[
+  {
+    "File": "Amberroot.vstheme",
+    "TypedComponentsSha256": "30E9AB671775049BDDCFFBF80C44CAF8FCE69CC4704F739C387DCF9020E7F415"
+  },
+  {
+    "File": "Aquatoxic.vstheme",
+    "TypedComponentsSha256": "8F337273A4FA91A537BCB6958A8A7BD2C35D91289B3961636229BFFAB57007C6"
+  },
+  {
+    "File": "Biolume.vstheme",
+    "TypedComponentsSha256": "D194A677E6D98D472E38FB0754E0E41433E6E02AEE05FC23B917AB2046E10DD4"
+  },
+  {
+    "File": "Cosmora.vstheme",
+    "TypedComponentsSha256": "F2AB94B905ED0A119EA81437A8D030A546B24C64BB6585AE1471745D45D09B84"
+  },
+  {
+    "File": "CosmoraBlueshift.vstheme",
+    "TypedComponentsSha256": "D1A5EA339968D83B8CDFCEEBFA90874A56A08B88E56BA169A52EDC1B76295DDE"
+  },
+  {
+    "File": "CosmoraRedshift.vstheme",
+    "TypedComponentsSha256": "BD8674FA36174C5446D2FF055C414FD8B14B23D5FF423319B97A4073050DF79F"
+  },
+  {
+    "File": "CosmoraUltraviolet.vstheme",
+    "TypedComponentsSha256": "AC48A7AF87397128D1EFFF477F6C3DFF0D1FC04C28D6B33D62A39A4CD18486B3"
+  },
+  {
+    "File": "Foundation.vstheme",
+    "TypedComponentsSha256": "9A863F9A12FC4D8C12B68474049ECFA790B3298E3DCF741385AE5CE451B84513"
+  },
+  {
+    "File": "Hardline.vstheme",
+    "TypedComponentsSha256": "C0D89134FC025E775042C3BB91E8C4A5E599A87280347DDEBF1C5BF8BCCDF1C9"
+  },
+  {
+    "File": "Nightglass.vstheme",
+    "TypedComponentsSha256": "16716E8956116CDA96A670A16EDEB5CA142B5CC4A80390E666A070015826EDE2"
+  },
+  {
+    "File": "Nullsector.vstheme",
+    "TypedComponentsSha256": "F1D8B2F5D0A6555120E2BA3F6598224AFF690A82F72ED977CC434AFBB2ECBF0E"
+  },
+  {
+    "File": "Pinknoise.vstheme",
+    "TypedComponentsSha256": "BC71972CF8FC38C2ED9D01F7CF939F6F45B3DDB674885FB96F6406E0E2DD33E1"
+  },
+  {
+    "File": "Silverphase.vstheme",
+    "TypedComponentsSha256": "F85769555E8423494EA1F4F5E853767E95D4B8FA9E2C42BAC1EF3935E698F445"
+  }
+]

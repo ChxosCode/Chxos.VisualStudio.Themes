@@ -1,0 +1,20 @@
+name: Prepare Pinknoise release
+run-name: Prepare Pinknoise ${{ inputs.version }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Expected Pinknoise version from PackageCatalog.json (for example 1.0.0)'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    uses: ./.github/workflows/release-product.yml
+    with:
+      package: pinknoise
+      version: ${{ inputs.version }}

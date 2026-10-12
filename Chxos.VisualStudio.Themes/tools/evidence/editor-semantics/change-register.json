@@ -1,0 +1,732 @@
+{
+  "Changes": [
+    {
+      "File": "Amberroot.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Amberroot.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Amberroot.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Amberroot.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Amberroot.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Amberroot.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Amberroot.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Aquatoxic.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Aquatoxic.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Aquatoxic.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Aquatoxic.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Aquatoxic.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Aquatoxic.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Aquatoxic.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Biolume.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Biolume.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Biolume.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Biolume.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Biolume.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Biolume.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Biolume.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Cosmora.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Cosmora.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Cosmora.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Cosmora.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Cosmora.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Cosmora.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Cosmora.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraBlueshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraBlueshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraBlueshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraBlueshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraBlueshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraBlueshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraBlueshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraRedshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraRedshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraRedshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraRedshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraRedshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraRedshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraRedshift.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraUltraviolet.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraUltraviolet.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraUltraviolet.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraUltraviolet.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraUltraviolet.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraUltraviolet.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "CosmoraUltraviolet.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Foundation.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Foundation.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Foundation.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Foundation.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Foundation.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Foundation.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Foundation.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Hardline.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Hardline.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Hardline.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Hardline.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Hardline.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Hardline.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Hardline.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nightglass.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nightglass.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nightglass.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nightglass.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nightglass.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nightglass.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nightglass.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nullsector.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nullsector.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nullsector.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nullsector.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nullsector.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nullsector.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Nullsector.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Pinknoise.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Pinknoise.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Pinknoise.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Pinknoise.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Pinknoise.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Pinknoise.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Pinknoise.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Silverphase.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "keyword - control",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Silverphase.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Silverphase.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "interface name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Silverphase.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "struct name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Silverphase.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "type parameter name",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Silverphase.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorDirective",
+        "Foreground"
+      ]
+    },
+    {
+      "File": "Silverphase.vstheme",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorTransition",
+        "Foreground"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1458 @@
+[
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-001",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF30412B",
+    "After": "FF687564"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-002",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF423B25",
+    "After": "FF5A5440"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-003",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-004",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "XAML Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-005",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "XML Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-006",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "CSS Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-007",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "CSS Property Name",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFD99A73",
+    "After": "FFDBA07B"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-008",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "HTML Attribute Name",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFD99A73",
+    "After": "FFDBA07B"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-009",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "HTML Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-010",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "regex - comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-011",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "VBScript Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-012",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "XML Doc Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-013",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-014",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - text",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-015",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml literal - comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-016",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "HTML Operator",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-017",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "HTML Tag Delimiter",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB7AA92",
+    "After": "FFB7AB93"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-018",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "RazorTagHelperAttribute",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFD99A73",
+    "After": "FFDBA07B"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-019",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "RazorDirectiveAttribute",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFD99A73",
+    "After": "FFDBA07B"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-020",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "RazorComponentAttribute",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFD99A73",
+    "After": "FFDBA07B"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-021",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - attribute name",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB0AC98",
+    "After": "FFB0AD99"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-022",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - attribute quotes",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB0AC98",
+    "After": "FFB0AD99"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-023",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - attribute value",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB0AC98",
+    "After": "FFB0AD99"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-024",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - cdata section",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB0AC98",
+    "After": "FFB0AD99"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-025",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - delimiter",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB0AC98",
+    "After": "FFB0AD99"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-026",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - entity reference",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB0AC98",
+    "After": "FFB0AD99"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-027",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - name",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB0AC98",
+    "After": "FFB0AD99"
+  },
+  {
+    "Id": "ES1-AMBERROOT-BALANCED-028",
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - processing instruction",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFB0AC98",
+    "After": "FFB0AD99"
+  },
+  {
+    "Id": "ES1-AQUATOXIC-BALANCED-001",
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF1C4B4E",
+    "After": "FF4F7476"
+  },
+  {
+    "Id": "ES1-AQUATOXIC-BALANCED-002",
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF274926",
+    "After": "FF385837"
+  },
+  {
+    "Id": "ES1-BIOLUME-BALANCED-001",
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF143933",
+    "After": "FF4C6964"
+  },
+  {
+    "Id": "ES1-BIOLUME-BALANCED-002",
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF0F2F2A",
+    "After": "FF324E49"
+  },
+  {
+    "Id": "ES1-COSMORA-BALANCED-001",
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF32304B",
+    "After": "FF616074"
+  },
+  {
+    "Id": "ES1-COSMORA-BALANCED-002",
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF252249",
+    "After": "FF474565"
+  },
+  {
+    "Id": "ES1-COSMORABLUESHIFT-BALANCED-001",
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF25334E",
+    "After": "FF576276"
+  },
+  {
+    "Id": "ES1-COSMORABLUESHIFT-BALANCED-002",
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF1C294D",
+    "After": "FF3A4665"
+  },
+  {
+    "Id": "ES1-COSMORAREDSHIFT-BALANCED-001",
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF4D2B24",
+    "After": "FF775C57"
+  },
+  {
+    "Id": "ES1-COSMORAREDSHIFT-BALANCED-002",
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF492013",
+    "After": "FF634034"
+  },
+  {
+    "Id": "ES1-COSMORAULTRAVIOLET-BALANCED-001",
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF412A42",
+    "After": "FF6C5A6C"
+  },
+  {
+    "Id": "ES1-COSMORAULTRAVIOLET-BALANCED-002",
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF382047",
+    "After": "FF513D5F"
+  },
+  {
+    "Id": "ES1-FOUNDATION-BALANCED-001",
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF223249",
+    "After": "FF566273"
+  },
+  {
+    "Id": "ES1-FOUNDATION-BALANCED-002",
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF1C293B",
+    "After": "FF3D4958"
+  },
+  {
+    "Id": "ES1-HARDLINE-BALANCED-001",
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF20384A",
+    "After": "FF657682"
+  },
+  {
+    "Id": "ES1-HARDLINE-BALANCED-002",
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF273034",
+    "After": "FF4E5659"
+  },
+  {
+    "Id": "ES1-NIGHTGLASS-BALANCED-001",
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF152F46",
+    "After": "FF506475"
+  },
+  {
+    "Id": "ES1-NIGHTGLASS-BALANCED-002",
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF11263C",
+    "After": "FF37495B"
+  },
+  {
+    "Id": "ES1-NIGHTGLASS-BALANCED-003",
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "Keyword",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF818CF8",
+    "After": "FF8893F8"
+  },
+  {
+    "Id": "ES1-NIGHTGLASS-BALANCED-004",
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "CSS Keyword",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF818CF8",
+    "After": "FF8893F8"
+  },
+  {
+    "Id": "ES1-NIGHTGLASS-BALANCED-005",
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "RazorComponentElement",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF818CF8",
+    "After": "FF8893F8"
+  },
+  {
+    "Id": "ES1-NIGHTGLASS-BALANCED-006",
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "CppControlKeywordSyntacticTokenFormat",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF818CF8",
+    "After": "FF8893F8"
+  },
+  {
+    "Id": "ES1-NIGHTGLASS-BALANCED-007",
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "C/C++ User Keywords",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF818CF8",
+    "After": "FF8893F8"
+  },
+  {
+    "Id": "ES1-NIGHTGLASS-BALANCED-008",
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Preprocessor Keyword",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF818CF8",
+    "After": "FF8893F8"
+  },
+  {
+    "Id": "ES1-NIGHTGLASS-BALANCED-009",
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "RazorTagHelperElement",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF818CF8",
+    "After": "FF8893F8"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-001",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF132934",
+    "After": "FF475861"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-002",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF0B1B25",
+    "After": "FF334149"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-003",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8190A2",
+    "After": "FF8593A5"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-004",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "Keyword",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFFF3D8D",
+    "After": "FFFF4C96"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-005",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "XAML Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8190A2",
+    "After": "FF8593A5"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-006",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "XML Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8190A2",
+    "After": "FF8593A5"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-007",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "CSS Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8190A2",
+    "After": "FF8593A5"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-008",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "CSS Keyword",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFFF3D8D",
+    "After": "FFFF4C96"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-009",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "HTML Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8190A2",
+    "After": "FF8593A5"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-010",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "RazorComponentElement",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFFF3D8D",
+    "After": "FFFF4C96"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-011",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "regex - comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8190A2",
+    "After": "FF8593A5"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-012",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "VBScript Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8190A2",
+    "After": "FF8593A5"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-013",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "XML Doc Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8190A2",
+    "After": "FF8593A5"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-014",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8190A2",
+    "After": "FF8593A5"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-015",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - text",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8190A2",
+    "After": "FF8593A5"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-016",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml literal - comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8190A2",
+    "After": "FF8593A5"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-017",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "HTML Operator",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF748395",
+    "After": "FF8693A2"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-018",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "HTML Tag Delimiter",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF748395",
+    "After": "FF8693A2"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-019",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "RazorTagHelperElement",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FFFF3D8D",
+    "After": "FFFF4C96"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-020",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - attribute name",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF748395",
+    "After": "FF8693A2"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-021",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - attribute quotes",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF748395",
+    "After": "FF8693A2"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-022",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - attribute value",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF748395",
+    "After": "FF8693A2"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-023",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - cdata section",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF748395",
+    "After": "FF8693A2"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-024",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - delimiter",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF748395",
+    "After": "FF8693A2"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-025",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - entity reference",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF748395",
+    "After": "FF8693A2"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-026",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - name",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF748395",
+    "After": "FF8693A2"
+  },
+  {
+    "Id": "ES1-NULLSECTOR-BALANCED-027",
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - processing instruction",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF748395",
+    "After": "FF8693A2"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-001",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF182428",
+    "After": "FF555E60"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-002",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF2D1A26",
+    "After": "FF4E3E49"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-003",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-004",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "XAML Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-005",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "XML Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-006",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "CSS Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-007",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "HTML Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-008",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "regex - comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-009",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "VBScript Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-010",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "XML Doc Comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-011",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-012",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - text",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-013",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml literal - comment",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-014",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "HTML Operator",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-015",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "HTML Tag Delimiter",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-016",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - attribute name",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-017",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - attribute quotes",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-018",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - attribute value",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-019",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - cdata section",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-020",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - delimiter",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-021",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - entity reference",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-022",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - name",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-PINKNOISE-BALANCED-023",
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - processing instruction",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF9E8290",
+    "After": "FFA78E9B"
+  },
+  {
+    "Id": "ES1-SILVERPHASE-BALANCED-001",
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF162247",
+    "After": "FF555D79"
+  },
+  {
+    "Id": "ES1-SILVERPHASE-BALANCED-002",
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF142433",
+    "After": "FF374551"
+  },
+  {
+    "Id": "ES1-SILVERPHASE-BALANCED-003",
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "Keyword",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8A7CF1",
+    "After": "FF978AF2"
+  },
+  {
+    "Id": "ES1-SILVERPHASE-BALANCED-004",
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "CSS Keyword",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8A7CF1",
+    "After": "FF978AF2"
+  },
+  {
+    "Id": "ES1-SILVERPHASE-BALANCED-005",
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "RazorComponentElement",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8A7CF1",
+    "After": "FF978AF2"
+  },
+  {
+    "Id": "ES1-SILVERPHASE-BALANCED-006",
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "CppControlKeywordSyntacticTokenFormat",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8A7CF1",
+    "After": "FF978AF2"
+  },
+  {
+    "Id": "ES1-SILVERPHASE-BALANCED-007",
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "C/C++ User Keywords",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8A7CF1",
+    "After": "FF978AF2"
+  },
+  {
+    "Id": "ES1-SILVERPHASE-BALANCED-008",
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Preprocessor Keyword",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8A7CF1",
+    "After": "FF978AF2"
+  },
+  {
+    "Id": "ES1-SILVERPHASE-BALANCED-009",
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "RazorTagHelperElement",
+      "Foreground"
+    ],
+    "Type": "CT_RAW",
+    "Before": "FF8A7CF1",
+    "After": "FF978AF2"
+  }
+]

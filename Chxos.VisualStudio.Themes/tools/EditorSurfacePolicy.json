@@ -1,0 +1,458 @@
+{
+  "SchemaVersion": 1,
+  "MaximumFillContrast": 2.5,
+  "MaximumHatchContrast": 2.0,
+  "MinimumSyntaxContrast": 4.5,
+  "MinimumBorderContrast": 3.0,
+  "Surfaces": [
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "MarkerFormatDefinition/CppHighlightedDefinition",
+      "Component": "Background",
+      "Anchor": "EditorDefinitionFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "MarkerFormatDefinition/HighlightedDefinition",
+      "Component": "Background",
+      "Anchor": "EditorDefinitionFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "Matched Selected Text",
+      "Component": "Background",
+      "Anchor": "EditorMatchedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "MarkerFormatDefinition/HighlightedReference",
+      "Component": "Background",
+      "Anchor": "EditorReferenceFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "MarkerFormatDefinition/HighlightedWrittenReference",
+      "Component": "Background",
+      "Anchor": "EditorReferenceFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "Expression Hover Highlight",
+      "Component": "Background",
+      "Anchor": "EditorExpressionFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "MarkerFormatDefinition/ScopeHighlight",
+      "Component": "Background",
+      "Anchor": "EditorScopeFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "MarkerFormatDefinition/FindHighlight",
+      "Component": "Background",
+      "Anchor": "EditorFindFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor Text Manager Items",
+      "Role": "Inactive Selected Text",
+      "Component": "Background",
+      "Anchor": "EditorInactiveSelectionFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "MarkerFormatDefinition/CommentHighlight",
+      "Component": "Background",
+      "Anchor": "EditorCommentHighlightFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "MarkerFormatDefinition/CommentMark",
+      "Component": "Background",
+      "Anchor": "EditorCommentMarkFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "Peek Highlighted Text",
+      "Component": "Background",
+      "Anchor": "EditorPeekHighlightFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "Peek Highlighted Text Unfocused",
+      "Component": "Background",
+      "Anchor": "EditorPeekHighlightFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "xml literal - embedded expression",
+      "Component": "Background",
+      "Anchor": "EditorEmbeddedExpressionFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "HTML Server-Side Script",
+      "Component": "Background",
+      "Anchor": "EditorServerScriptFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "brace matching",
+      "Component": "Background",
+      "Anchor": "EditorBraceFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "Call Return",
+      "Component": "Background",
+      "Anchor": "EditorCallReturnFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "Call Return (historical mode)",
+      "Component": "Background",
+      "Anchor": "EditorHistoricalReturnFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor Text Marker Items",
+      "Role": "Brace Matching (Rectangle)",
+      "Component": "Background",
+      "Anchor": "EditorBraceFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor Text Marker Items",
+      "Role": "Code Snippet Field (Selected)",
+      "Component": "Background",
+      "Anchor": "EditorSnippetFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor Text Marker Items",
+      "Role": "Refactoring Current Field",
+      "Component": "Background",
+      "Anchor": "EditorRefactoringFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor Text Marker Items",
+      "Role": "Coverage Touched Area",
+      "Component": "Background",
+      "Anchor": "EditorCoverageTouchedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor Text Marker Items",
+      "Role": "Coverage Not Touched Area",
+      "Component": "Background",
+      "Anchor": "EditorCoverageUntouchedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "deltadiff.add.line",
+      "Component": "Background",
+      "Anchor": "EditorDiffAddedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "deltadiff.add.word",
+      "Component": "Background",
+      "Anchor": "EditorDiffAddedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "mergeEditor.AcceptedLine",
+      "Component": "Background",
+      "Anchor": "EditorDiffAddedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "mergeEditor.AcceptedSimilarLine",
+      "Component": "Background",
+      "Anchor": "EditorDiffAddedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "mergeEditor.NotAcceptedLine",
+      "Component": "Background",
+      "Anchor": "EditorDiffAddedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "mergeEditor.WordDiffBoxAccepted",
+      "Component": "Background",
+      "Anchor": "EditorDiffAddedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "deltadiff.remove.line",
+      "Component": "Background",
+      "Anchor": "EditorDiffRemovedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "deltadiff.remove.word",
+      "Component": "Background",
+      "Anchor": "EditorDiffRemovedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "mergeEditor.ConflictLine",
+      "Component": "Background",
+      "Anchor": "EditorDiffRemovedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "mergeEditor.WordDiffBoxConflict",
+      "Component": "Background",
+      "Anchor": "EditorDiffRemovedFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "mergeEditor.ConflictMismatchLine",
+      "Component": "Background",
+      "Anchor": "EditorDiffConflictFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "deltadiff.overview.color",
+      "Component": "Foreground",
+      "Anchor": "EditorDiffHatch",
+      "Kind": "hatch",
+      "Syntax": false
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "mergeEditor.NegativeSpace",
+      "Component": "Background",
+      "Anchor": "EditorDiffHatch",
+      "Kind": "hatch",
+      "Syntax": false
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "mergeEditor.DeletedNegativeSpace",
+      "Component": "Background",
+      "Anchor": "EditorDiffHatch",
+      "Kind": "hatch",
+      "Syntax": false
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "mergeEditor.ConflictNegativeSpace",
+      "Component": "Background",
+      "Anchor": "EditorDiffHatch",
+      "Kind": "hatch",
+      "Syntax": false
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "mergeEditor.SelectionBox",
+      "Component": "Background",
+      "Anchor": "EditorMergeSelectionFill",
+      "Kind": "fill",
+      "Syntax": true
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "deltadiff.add.word",
+      "Component": "Foreground",
+      "Anchor": "EditorDiffAddBorder",
+      "Kind": "border",
+      "Syntax": false
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "deltadiff.remove.word",
+      "Component": "Foreground",
+      "Anchor": "EditorDiffRemoveBorder",
+      "Kind": "border",
+      "Syntax": false
+    },
+    {
+      "Category": "Command Window",
+      "Role": "Selected Text",
+      "Component": "Background",
+      "Anchor": "CommandWindowSelectedTextFill",
+      "Kind": "fill",
+      "Syntax": false,
+      "SurfaceCategory": "Command Window",
+      "ContentCategory": "Command Window",
+      "ContentRole": "Plain Text"
+    },
+    {
+      "Category": "Command Window",
+      "Role": "Inactive Selected Text",
+      "Component": "Background",
+      "Anchor": "CommandWindowInactiveSelectedTextFill",
+      "Kind": "fill",
+      "Syntax": false,
+      "SurfaceCategory": "Command Window",
+      "ContentCategory": "Command Window",
+      "ContentRole": "Plain Text"
+    },
+    {
+      "Category": "Immediate Window",
+      "Role": "Selected Text",
+      "Component": "Background",
+      "Anchor": "ImmediateWindowSelectedTextFill",
+      "Kind": "fill",
+      "Syntax": false,
+      "SurfaceCategory": "Immediate Window",
+      "ContentCategory": "Immediate Window",
+      "ContentRole": "Plain Text"
+    },
+    {
+      "Category": "Immediate Window",
+      "Role": "Inactive Selected Text",
+      "Component": "Background",
+      "Anchor": "ImmediateWindowInactiveSelectedTextFill",
+      "Kind": "fill",
+      "Syntax": false,
+      "SurfaceCategory": "Immediate Window",
+      "ContentCategory": "Immediate Window",
+      "ContentRole": "Plain Text"
+    },
+    {
+      "Category": "Output Window",
+      "Role": "Selected Text",
+      "Component": "Background",
+      "Anchor": "OutputWindowSelectedTextFill",
+      "Kind": "fill",
+      "Syntax": false,
+      "SurfaceCategory": "Output Window",
+      "ContentCategory": "Output Window",
+      "ContentRole": "Plain Text"
+    },
+    {
+      "Category": "Output Window",
+      "Role": "Inactive Selected Text",
+      "Component": "Background",
+      "Anchor": "OutputWindowInactiveSelectedTextFill",
+      "Kind": "fill",
+      "Syntax": false,
+      "SurfaceCategory": "Output Window",
+      "ContentCategory": "Output Window",
+      "ContentRole": "Plain Text"
+    },
+    {
+      "Category": "Find Results",
+      "Role": "Selected Text",
+      "Component": "Background",
+      "Anchor": "FindResultsSelectedTextFill",
+      "Kind": "fill",
+      "Syntax": false,
+      "SurfaceCategory": "Find Results",
+      "ContentCategory": "Find Results",
+      "ContentRole": "Plain Text"
+    },
+    {
+      "Category": "Find Results",
+      "Role": "Inactive Selected Text",
+      "Component": "Background",
+      "Anchor": "FindResultsInactiveSelectedTextFill",
+      "Kind": "fill",
+      "Syntax": false,
+      "SurfaceCategory": "Find Results",
+      "ContentCategory": "Find Results",
+      "ContentRole": "Plain Text"
+    },
+    {
+      "Category": "Output Window",
+      "Role": "Current List Location",
+      "Component": "Background",
+      "Anchor": "OutputWindowCurrentListLocationFill",
+      "Kind": "fill",
+      "Syntax": false,
+      "SurfaceCategory": "Output Window",
+      "ContentCategory": "Output Window",
+      "ContentRole": "Current List Location"
+    },
+    {
+      "Category": "Find Results",
+      "Role": "Current List Location",
+      "Component": "Background",
+      "Anchor": "FindResultsCurrentListLocationFill",
+      "Kind": "fill",
+      "Syntax": false,
+      "SurfaceCategory": "Find Results",
+      "ContentCategory": "Find Results",
+      "ContentRole": "Current List Location"
+    },
+    {
+      "Category": "Text Editor Text Marker Items",
+      "Role": "Current List Location",
+      "Component": "Background",
+      "Anchor": "TextEditorTextMarkerItemsCurrentListLocationFill",
+      "Kind": "fill",
+      "Syntax": true,
+      "SurfaceCategory": "Text Editor Text Manager Items",
+      "ContentCategory": "Text Editor Text Marker Items",
+      "ContentRole": "Current List Location"
+    }
+  ]
+}

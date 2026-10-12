@@ -1,0 +1,46 @@
+[
+  {
+    "Kind": "project-decision",
+    "Record": {
+      "id": "REFINEMENT-ENFORCEMENT-SCOPE",
+      "date": "2026-09-11",
+      "result": "RefinementEnforcement explicitly controls expanded source checks independently of package ownership. Six existing themes remain enforced and seven deferred themes remain pending. Exact anchors and executable thresholds retain their existing owners. Policy-only scope metadata establishes no rendering consumer or runtime acceptance."
+    }
+  },
+  {
+    "Kind": "implementation",
+    "Record": {
+      "id": "REFINEMENT-COLORSLIDER",
+      "assembly": {
+        "Path": "[VSINSTALLDIR]/Common7/IDE/Microsoft.VisualStudio.Shell.Styles.dll",
+        "Sha256": "BB60F06D5550EA9260F2BB3B86DBAFD9C6FBF2E5D95194178407109355BC1045",
+        "FileVersion": "18.10.1177.17331",
+        "ProductVersion": "18.10.1177+43b3e99e80"
+      },
+      "inspectedDate": "2026-09-11",
+      "memberLocations": [
+        "styles/colorpicker/colorsliderstyle.xaml:ThumbStyle",
+        "styles/colorpicker/colorpickerstyle.xaml:ColorPicker template",
+        "Microsoft.VisualStudio.Shell.Controls.ColorSlider.UpdateSliderBackground"
+      ],
+      "result": "ColorSlider ThumbStyle uses ControlSolidFillDefaultBrushKey for its fill and TextFillPrimaryBrushKey for its border, and hides the thumb when disabled. The track binds ColorSlider.SliderBackground and varies with color components; this trace does not resolve every visible solid-fill consumer or prove rendered contrast.",
+      "captures": [
+        {
+          "PrivateArtifactName": "ColorSlider.cs",
+          "Sha256": "C4794F0C2BD7F9C386D60F907FFCBAEDBC78D2A919621CD3E64DED5B9896FD83",
+          "ArtifactAvailability": "Private installed-source inspection; not distributed."
+        },
+        {
+          "PrivateArtifactName": "colorpickerstyle.xaml",
+          "Sha256": "0EDAD9E21A98C0732140F43E3BA48B0887638CDE375E2F0205D27E499453071C",
+          "ArtifactAvailability": "Private installed-source inspection; not distributed."
+        },
+        {
+          "PrivateArtifactName": "colorsliderstyle.xaml",
+          "Sha256": "4134E71BD3DC3F41216BEB757FDBC7A54361C2035B12483B3A7563DCBBADCDF6",
+          "ArtifactAvailability": "Private installed-source inspection; not distributed."
+        }
+      ]
+    }
+  }
+]

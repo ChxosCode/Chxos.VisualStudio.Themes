@@ -1,0 +1,147 @@
+[
+  {
+    "id": "MS-TOKENS",
+    "url": "https://learn.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/theme-color-token-reference?view=visualstudio",
+    "resolvedUrl": "https://learn.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/theme-color-token-reference?view=visualstudio",
+    "title": "Visual Studio Theme Color Tokens - Visual Studio (Windows) | Microsoft Learn",
+    "retrievedDate": "2026-09-05",
+    "publishedMetadata": [
+      "2026-08-24T00:00:00Z",
+      "2026-09-01T22:05:00Z"
+    ],
+    "downloadSha256": "137C4FDEC13CC6703D7B3AC9647323465600B8C4E9BC00990C947F0CAB0A5CDE",
+    "sections": "How theme tokens work; Card; System status; Shell internal colors",
+    "applicability": "Visual Studio 2026; live override editor introduced in 18.7"
+  },
+  {
+    "id": "MS-MODERN",
+    "url": "https://learn.microsoft.com/en-us/visualstudio/extensibility/migration/modernize-theme-colors?view=visualstudio",
+    "resolvedUrl": "https://learn.microsoft.com/en-us/visualstudio/extensibility/migration/modernize-theme-colors?view=visualstudio",
+    "title": "Modernize Visual Studio theme colors - Visual Studio (Windows) | Microsoft Learn",
+    "retrievedDate": "2026-09-05",
+    "publishedMetadata": [
+      "2026-08-24T00:00:00Z",
+      "2026-09-01T22:05:00Z"
+    ],
+    "downloadSha256": "CC9C09A2656A9E3124C54D507159D6D1B7962A37E42FAE106045236F68E451E7",
+    "sections": "Migration approach; simplified semantic categories",
+    "applicability": "Visual Studio 2026 shell migration, not a removal inventory for editor/extension tokens"
+  },
+  {
+    "id": "MS-COMPILER",
+    "url": "https://learn.microsoft.com/en-us/visualstudio/extensibility/internals/vsix-color-compiler?view=visualstudio",
+    "resolvedUrl": "https://learn.microsoft.com/en-us/visualstudio/extensibility/internals/vsix-color-compiler?view=visualstudio",
+    "title": "VSIX Color Compiler - Visual Studio (Windows) | Microsoft Learn",
+    "retrievedDate": "2026-09-05",
+    "publishedMetadata": [
+      "2025-11-03T00:00:00Z",
+      "2026-04-24T22:06:00Z"
+    ],
+    "downloadSha256": "1060A8F47E1807A9D0D693364EAA66F735222EE158371652765F36C356C0A06F",
+    "sections": "Theme XML schema; Background and/or Foreground",
+    "applicability": "Mixed historical and VS2026 guidance; type contract distinguished from recommendations"
+  },
+  {
+    "id": "MS-COLORREF",
+    "url": "https://learn.microsoft.com/en-us/windows/win32/gdi/colorref",
+    "resolvedUrl": "https://learn.microsoft.com/en-us/windows/win32/gdi/colorref",
+    "title": "COLORREF (Windef.h) - Win32 apps | Microsoft Learn",
+    "retrievedDate": "2026-09-05",
+    "publishedMetadata": [
+      "2020-07-27T00:00:00Z",
+      "2022-04-07T17:47:00Z"
+    ],
+    "downloadSha256": "851CF4103A4266FAECCBA9F353332CDEEFAF0251A496548F07BE37F9C7DC3B91",
+    "sections": "Remarks",
+    "applicability": "Win32 explicit RGB representation"
+  },
+  {
+    "id": "MS-COLORABLE",
+    "url": "https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.shell.interop.colorableiteminfo.crbackground?view=visualstudiosdk-2022",
+    "resolvedUrl": "https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.shell.interop.colorableiteminfo.crbackground?view=visualstudiosdk-2022",
+    "title": "ColorableItemInfo.crBackground Field (Microsoft.VisualStudio.Shell.Interop) | Microsoft Learn",
+    "retrievedDate": "2026-09-05",
+    "publishedMetadata": [
+      "2024-02-26T00:00:00Z",
+      "2024-05-06T18:20:00Z"
+    ],
+    "downloadSha256": "991340714C14F9468A67718981AD3908C10D9ADFC590740CE0D29CA857F77369",
+    "sections": "Field definition; Remarks",
+    "applicability": "SDK 2022 documentation of the interop contract used by the installed 18.9 implementation"
+  },
+  {
+    "id": "MS-BGVALID",
+    "url": "https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.shell.interop.colorableiteminfo.bbackgroundvalid?view=visualstudiosdk-2022",
+    "resolvedUrl": "https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.shell.interop.colorableiteminfo.bbackgroundvalid?view=visualstudiosdk-2022",
+    "title": "ColorableItemInfo.bBackgroundValid Field (Microsoft.VisualStudio.Shell.Interop) | Microsoft Learn",
+    "retrievedDate": "2026-09-05",
+    "publishedMetadata": [
+      "2024-02-26T00:00:00Z",
+      "2024-05-06T18:20:00Z"
+    ],
+    "downloadSha256": "B2881DF3F70B29DF68FA7ED2C5264D3B1C4B5C36DAE4525855A9E87DDA51002C",
+    "sections": "Definition; Remarks",
+    "applicability": "Validity flag for a color item; default and override state must be distinguished"
+  },
+  {
+    "id": "MS-MARKER",
+    "url": "https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.text.classification.markerformatdefinition?view=visualstudiosdk-2022",
+    "resolvedUrl": "https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.text.classification.markerformatdefinition?view=visualstudiosdk-2022",
+    "title": "MarkerFormatDefinition Class (Microsoft.VisualStudio.Text.Classification) | Microsoft Learn",
+    "retrievedDate": "2026-09-05",
+    "publishedMetadata": [
+      "2024-02-26T00:00:00Z",
+      "2022-05-09T22:15:00Z"
+    ],
+    "downloadSha256": "F911D14E9206F7667C496B4E17E81F836AA0EEED1C72A78989A6E094D6C533E1",
+    "sections": "Remarks; Fields; Properties",
+    "applicability": "SDK marker API; does not classify every MEF item"
+  },
+  {
+    "id": "W3C-TEXT",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "resolvedUrl": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "title": "Understanding Success Criterion 1.4.3: Contrast (Minimum) | WAI | W3C",
+    "retrievedDate": "2026-09-05",
+    "publishedMetadata": [],
+    "downloadSha256": "3352AAF477E9739155628467C4B62997E18EA4CAB917C0EB4FC4FB39C5238A2E",
+    "sections": "Success Criterion; Rationale for ratios; threshold rounding",
+    "applicability": "WCAG 2.2 web criterion used as the project contrast benchmark; no claim of whole-desktop WCAG conformance"
+  },
+  {
+    "id": "W3C-NONTEXT",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+    "resolvedUrl": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+    "title": "Understanding Success Criterion 1.4.11: Non-text Contrast | WAI | W3C",
+    "retrievedDate": "2026-09-05",
+    "publishedMetadata": [],
+    "downloadSha256": "237CD64C8439DDBCA50694708B5D24718A5B2ED74BB4EEE90D02CF7707FD0674",
+    "sections": "User Interface Components; Inactive User Interface Components",
+    "applicability": "WCAG 2.2 benchmark for necessary graphical information"
+  },
+  {
+    "id": "ROSLYN-INLINE",
+    "url": "https://raw.githubusercontent.com/dotnet/roslyn/35d9211b841e7613c1d2f8f5af6d628ace696c4c/src/EditorFeatures/Core/InlineDiagnostics/InlineDiagnosticsTag.cs",
+    "resolvedUrl": "https://raw.githubusercontent.com/dotnet/roslyn/35d9211b841e7613c1d2f8f5af6d628ace696c4c/src/EditorFeatures/Core/InlineDiagnostics/InlineDiagnosticsTag.cs",
+    "title": "InlineDiagnosticsTag.cs",
+    "retrievedDate": "2026-09-05",
+    "publishedMetadata": [],
+    "downloadSha256": "51232ACFA5BD9D7D8DC87C9DC598EE209048C728A48191FFEE171E9C0FDB05F9",
+    "sections": "CreateGraphics and message/border construction",
+    "applicability": "Exact installed Roslyn commit 35d9211b841e7613c1d2f8f5af6d628ace696c4c"
+  },
+  {
+    "id": "MS-SHARED",
+    "url": "https://learn.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/shared-colors-for-visual-studio?view=visualstudio",
+    "resolvedUrl": "https://learn.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/shared-colors-for-visual-studio?view=vs-2022&viewFallbackFrom=visualstudio",
+    "title": "Shared Colors for Visual Studio - Visual Studio (Windows) | Microsoft Learn",
+    "retrievedDate": "2026-09-05",
+    "publishedMetadata": [
+      "2017-04-26T00:00:00Z",
+      "2026-05-15T16:07:00Z"
+    ],
+    "downloadSha256": "5EE86B37C2680B727FF3E153C0A893468A6E55159493D22412115768AEAF9C17",
+    "sections": "Common UI elements; font and color usage",
+    "applicability": "Historical shared-color guidance; not proof of a current consumer binding"
+  }
+]

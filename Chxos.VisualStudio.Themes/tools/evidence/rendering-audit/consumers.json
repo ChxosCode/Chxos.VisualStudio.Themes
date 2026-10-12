@@ -1,0 +1,208 @@
+{
+  "tool": "ilspycmd 11.0.0.9375",
+  "consumers": [
+    {
+      "id": "CON-FONTS",
+      "assembly": {
+        "Path": "[VSINSTALLDIR]/Common7\\IDE\\CommonExtensions\\Microsoft\\Editor\\Microsoft.VisualStudio.Editor.Implementation.dll",
+        "Sha256": "1B9CE06C5F1C72CF69223BD572ED7BCA6EE42FEB527B44CAF88C653CA12558BF",
+        "FileVersion": "18.9.193.14499",
+        "ProductVersion": "18.9.193+38a3668b82.RR"
+      },
+      "captures": [
+        {
+          "PrivateArtifactName": "FontsAndColorsHelper.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "sha256": "27A3F01C71CE0DB4E5C648B45CE5FF55B6C53B4BE9E9E0065B2BDAE07468708A",
+          "inspectedMembers": [
+            "GetWpfColor",
+            "FillDictionaryForeground",
+            "FillDictionaryBackground"
+          ]
+        },
+        {
+          "PrivateArtifactName": "EditorFormatFontAndColorCategoryBase.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "sha256": "7AA1CC98547EBBCCEC51BAF82DB433039AF405B56899668383CA571982B37758",
+          "inspectedMembers": [
+            "UpdateFormatMap"
+          ]
+        },
+        {
+          "PrivateArtifactName": "ToolWindowFontAndColorCategoryBase.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "sha256": "C13E5140F11FB77CED583E86A194DAC394366D3DD2E05FEF952FB08DC31853C9",
+          "inspectedMembers": [
+            "UpdateFormatMap"
+          ]
+        }
+      ],
+      "result": "Valid raw Fonts and Colors items reach Win32 RGB conversion; inherited/system/index resolution is separate. This is not a statement about all editor APIs."
+    },
+    {
+      "id": "CON-OUTPUT",
+      "assembly": {
+        "Path": "[VSINSTALLDIR]/Common7\\IDE\\CommonExtensions\\Microsoft\\Editor\\Microsoft.VisualStudio.Editor.Implementation.dll",
+        "Sha256": "1B9CE06C5F1C72CF69223BD572ED7BCA6EE42FEB527B44CAF88C653CA12558BF",
+        "FileVersion": "18.9.193.14499",
+        "ProductVersion": "18.9.193+38a3668b82.RR"
+      },
+      "captures": [
+        {
+          "PrivateArtifactName": "OutputWindowFontAndColorCategory.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "sha256": "CD34362C8BA6A8D61E78A015E5DAE525698CB744797C1E6E2D3C26EDA587A8FF",
+          "inspectedMembers": [
+            "Items",
+            "IsLegacyMarker"
+          ]
+        },
+        {
+          "PrivateArtifactName": "ToolWindowFontAndColorCategoryBase.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "sha256": "C13E5140F11FB77CED583E86A194DAC394366D3DD2E05FEF952FB08DC31853C9",
+          "inspectedMembers": [
+            "UpdateFormatMap"
+          ]
+        },
+        {
+          "PrivateArtifactName": "FontsAndColorsHelper.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "sha256": "27A3F01C71CE0DB4E5C648B45CE5FF55B6C53B4BE9E9E0065B2BDAE07468708A",
+          "inspectedMembers": [
+            "GetNonMarkerItem",
+            "FillDictionaryBackground",
+            "UpdateLegacyMarkerClassification",
+            "UpdateLegacyMarkerBackground"
+          ]
+        },
+        {
+          "PrivateArtifactName": "FontAndColorCategoryBase.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "sha256": "077FBBCEC095816627419532E5CCF1476F622DB67949B0DE80E5102797C3EC9B",
+          "inspectedMembers": [
+            "OnItemChanged contract"
+          ]
+        }
+      ],
+      "result": "Output registers urlformat as a non-marker with bBackgroundValid=0 by default. FillDictionaryBackground removes an invalid background; a valid override instead reaches GetWpfColor and opaque RGB. The final validity of the authored URL background after native theme/default merging is unresolved. Current List Location is a separate legacy-marker path with classification foreground and marker background."
+    },
+    {
+      "id": "CON-SELECTION",
+      "assembly": {
+        "Path": "[VSINSTALLDIR]/Common7\\IDE\\CommonExtensions\\Microsoft\\Editor\\Microsoft.VisualStudio.Platform.VSEditor.dll",
+        "Sha256": "F68B431A0890F168E52371BA54C1DDF6C62640171A4E50E9617D0DF8537CAF37",
+        "FileVersion": "18.9.193.14499",
+        "ProductVersion": "18.9.193+38a3668b82.RR"
+      },
+      "captures": [
+        {
+          "PrivateArtifactName": "BrushSelectionPainter.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "sha256": "12840E0B63C4BAC2983F78494B2EFCD6DBA45E66A7B298D6763302D08C8A0EB9",
+          "inspectedMembers": [
+            "CreatePainter"
+          ]
+        },
+        {
+          "PrivateArtifactName": "SelectionAdornmentLayer.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "sha256": "11EB4C82C8BB6BB68D1FD13E00742B2FBAF47A90123C22AD4384CF13DB0159BE",
+          "inspectedMembers": [
+            "constructor",
+            "OnFormatMappingChanged",
+            "CreateAndSetPainter"
+          ]
+        }
+      ],
+      "result": "Normal selection painter consumes Background/BackgroundColor and optional BackgroundPen; it does not use Selected Text foreground to replace syntax. High Contrast and overlapping adornments require separate review."
+    },
+    {
+      "id": "CON-NOTIFICATIONS",
+      "assembly": {
+        "Path": "[VSINSTALLDIR]/Common7\\IDE\\Microsoft.VisualStudio.Shell.UI.Internal.dll",
+        "Sha256": "0BBA6CBFB18E0EA52BF25147774E8CC922090CF42FAAD2BBEC6A7AA102A7067F",
+        "FileVersion": "18.9.1306.19527",
+        "ProductVersion": "18.9.1306+4c47a5ee36"
+      },
+      "resource": "Microsoft.VisualStudio.Shell.UI.Internal.g.resources/packages/usernotifications/controls/usernotificationswindow.baml",
+      "captures": [
+        {
+          "PrivateArtifactName": "usernotificationswindow.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "sha256": "7D946042E3673310D464C3021E78F69B32D33A1BAF6A3E92AE5979DE865100FE",
+          "inspectedMembers": [
+            "UserNotificationItemDataTemplateKey",
+            "ListBoxItemBorder",
+            "TitleTextBlock",
+            "item hover/selected triggers"
+          ]
+        }
+      ],
+      "result": "This item template assigns ToolWindowText to TextBlocks and uses ToolWindowBackground as the normal item surface; hover and selected notification backgrounds replace that surface. It does not reference TitleMouseOverText, TitleSelectedText, Subtitle or IgnoredTitle legacy state pairs. Alternate consumers remain unverified."
+    },
+    {
+      "id": "CON-SEARCH",
+      "assembly": {
+        "Path": "[VSINSTALLDIR]/Common7\\IDE\\Microsoft.VisualStudio.Shell.UI.Internal.dll",
+        "Sha256": "0BBA6CBFB18E0EA52BF25147774E8CC922090CF42FAAD2BBEC6A7AA102A7067F",
+        "FileVersion": "18.9.1306.19527",
+        "ProductVersion": "18.9.1306+4c47a5ee36"
+      },
+      "resource": "Microsoft.VisualStudio.Shell.UI.Internal.g.resources/packages/search/ui/controls/searchtextbox.baml",
+      "captures": [
+        {
+          "PrivateArtifactName": "searchtextbox.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "sha256": "376AE02AFA017C2C9AE67E1EC8B3A1F05C3F44FB92CBC85B8826E8ED6F809A84",
+          "inspectedMembers": [
+            "OptionButtonStyle",
+            "search text box template"
+          ]
+        }
+      ],
+      "result": "This current search-control resource does not establish the legacy SearchControl/ActionButton underlay. The two registry relationships remain unresolved; this is a bounded unsuccessful trace, not proof of an unused token."
+    },
+    {
+      "id": "CON-TITLE",
+      "assembly": {
+        "Path": "[VSINSTALLDIR]/Common7\\IDE\\Microsoft.VisualStudio.Shell.UI.Internal.dll",
+        "Sha256": "0BBA6CBFB18E0EA52BF25147774E8CC922090CF42FAAD2BBEC6A7AA102A7067F",
+        "FileVersion": "18.9.1306.19527",
+        "ProductVersion": "18.9.1306+4c47a5ee36"
+      },
+      "PrivateArtifactName": "validation.json",
+      "ArtifactAvailability": "Private inspection record; not distributed.",
+      "retainedEvidenceSha256": "4C3DD268BA14706E523FC1051B145AAE8ABD2253CF7865391506E742F5464CE5",
+      "result": "Retained assembly hash matches current installation. SolutionInfoControl uses EnvironmentBadge; VsToolBar uses EnvironmentLayeredBackground; both use EnvironmentLayeredBorder and primary text. Equality is a project choice."
+    },
+    {
+      "id": "CON-DIFF",
+      "assembly": {
+        "Path": "[VSINSTALLDIR]/Common7\\IDE\\CommonExtensions\\Microsoft\\Editor\\Microsoft.VisualStudio.Platform.VSEditor.dll",
+        "Sha256": "F68B431A0890F168E52371BA54C1DDF6C62640171A4E50E9617D0DF8537CAF37",
+        "FileVersion": "18.9.193.14499",
+        "ProductVersion": "18.9.193+38a3668b82.RR"
+      },
+      "PrivateArtifactName": "consumers.json",
+      "ArtifactAvailability": "Private inspection record; not distributed.",
+      "retainedEvidenceSha256": "2230AC9553D08E10FE89A8A786D4AFD283434AEFA2228BF4FFD7F3D9F32513E3",
+      "result": "Retained current-version traces establish diff line/word fills, word foreground pens and the shared hatch/viewport foreground. Comfort thresholds remain project policy."
+    },
+    {
+      "id": "CON-INLINE",
+      "assembly": {
+        "Path": "[VSINSTALLDIR]/Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.CodeAnalysis.EditorFeatures.dll",
+        "Sha256": "FEC812FB4D97F9E8C0D69A7BC1B6921B2CC95E2368B70ABB1AFB0B99F1F3F5DC",
+        "FileVersion": "5.900.26.35703",
+        "ProductVersion": "5.9.0-1.26357.3+35d9211b841e7613c1d2f8f5af6d628ace696c4c"
+      },
+      "PrivateArtifactName": "inline-diagnostic-consumer.json",
+      "ArtifactAvailability": "Private inspection record; not distributed.",
+      "retainedEvidenceSha256": "257E211D6EA1AB830CD864B1189873DF23F8A375B89103C92E299010D8AD985C",
+      "officialSourceId": "ROSLYN-INLINE",
+      "result": "Installed assembly and commit match the retained trace. Message text uses foreground; background brush draws the border over a transparent editor interior. URL text is classified separately."
+    }
+  ],
+  "limits": "No live window was modified or captured. Local extracted third-party code stays ignored. A missing reference in one template does not establish global non-use."
+}

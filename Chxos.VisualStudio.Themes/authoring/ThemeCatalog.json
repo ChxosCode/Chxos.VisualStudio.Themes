@@ -1,0 +1,93 @@
+[
+  {
+    "File": "Amberroot.vstheme",
+    "Name": "Amberroot",
+    "Guid": "{e102d760-8591-40ac-bf78-47a8ba8df9c2}",
+    "Pkgdef": "Amberroot.pkgdef",
+    "SpacedEmptyElements": false
+  },
+  {
+    "File": "Aquatoxic.vstheme",
+    "Name": "Aquatoxic",
+    "Guid": "{e38b0d54-a4cf-4b53-ba35-e09d1fdc3578}",
+    "Pkgdef": "Aquatoxic.pkgdef",
+    "SpacedEmptyElements": false
+  },
+  {
+    "File": "Biolume.vstheme",
+    "Name": "Biolume",
+    "Guid": "{4d9cd7e1-6516-41b7-bb91-882f6c8a381e}",
+    "Pkgdef": "Biolume.pkgdef",
+    "SpacedEmptyElements": false
+  },
+  {
+    "File": "Cosmora.vstheme",
+    "Name": "Cosmora",
+    "Guid": "{27dc80d5-8c3f-4fb7-ab87-84d5e4ffb399}",
+    "Pkgdef": "Cosmora.pkgdef",
+    "SpacedEmptyElements": false
+  },
+  {
+    "File": "CosmoraBlueshift.vstheme",
+    "Name": "Cosmora Blueshift",
+    "Guid": "{ff442c60-e3fc-421e-86fb-5f808e41ff1c}",
+    "Pkgdef": "CosmoraBlueshift.pkgdef",
+    "SpacedEmptyElements": false
+  },
+  {
+    "File": "CosmoraRedshift.vstheme",
+    "Name": "Cosmora Redshift",
+    "Guid": "{dadccee6-c0fa-446d-a412-4add268588c7}",
+    "Pkgdef": "CosmoraRedshift.pkgdef",
+    "SpacedEmptyElements": false
+  },
+  {
+    "File": "CosmoraUltraviolet.vstheme",
+    "Name": "Cosmora Ultraviolet",
+    "Guid": "{120561ee-01c5-4016-b41b-615a59ba0d96}",
+    "Pkgdef": "CosmoraUltraviolet.pkgdef",
+    "SpacedEmptyElements": false
+  },
+  {
+    "File": "Foundation.vstheme",
+    "Name": "Foundation",
+    "Guid": "{41f1b4f7-6f5d-40ba-8182-80ee4f3831f7}",
+    "Pkgdef": "Foundation.pkgdef",
+    "SpacedEmptyElements": false
+  },
+  {
+    "File": "Hardline.vstheme",
+    "Name": "Hardline",
+    "Guid": "{f1ac81a9-90de-4001-957f-94f970c8cd4a}",
+    "Pkgdef": "Hardline.pkgdef",
+    "SpacedEmptyElements": true
+  },
+  {
+    "File": "Nightglass.vstheme",
+    "Name": "Nightglass",
+    "Guid": "{74ebffcf-0561-49d5-b63e-6c0a26536b32}",
+    "Pkgdef": "Nightglass.pkgdef",
+    "SpacedEmptyElements": false
+  },
+  {
+    "File": "Nullsector.vstheme",
+    "Name": "Nullsector",
+    "Guid": "{53f3c5be-5371-4322-9525-300e6a0aada5}",
+    "Pkgdef": "Nullsector.pkgdef",
+    "SpacedEmptyElements": true
+  },
+  {
+    "File": "Pinknoise.vstheme",
+    "Name": "Pinknoise",
+    "Guid": "{2c24e257-cbed-4c27-877c-39b52a813782}",
+    "Pkgdef": "Pinknoise.pkgdef",
+    "SpacedEmptyElements": false
+  },
+  {
+    "File": "Silverphase.vstheme",
+    "Name": "Silverphase",
+    "Guid": "{12e4fd10-175e-43c9-956e-60c64f049dd9}",
+    "Pkgdef": "Silverphase.pkgdef",
+    "SpacedEmptyElements": false
+  }
+]

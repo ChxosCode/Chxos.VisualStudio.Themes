@@ -1,0 +1,60 @@
+name: Theme rendering problem
+description: Report a theme's readability, coloring, or interaction-state problem.
+title: "[Theme]: "
+labels:
+  - theme
+body:
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      options:
+        - Foundation
+        - Pinknoise
+        - Cosmora
+        - Cosmora Blueshift
+        - Cosmora Redshift
+        - Cosmora Ultraviolet
+        - Source build / deferred theme (name below)
+    validations:
+      required: true
+  - type: input
+    id: product-version
+    attributes:
+      label: Installed product and version
+      description: Find the product in Extensions > Manage Extensions. For a source build, include its package key and revision if known.
+      placeholder: Foundation Theme 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: visual-studio
+    attributes:
+      label: Visual Studio version and edition
+      description: Include the full version from Help > About.
+      placeholder: Visual Studio Community 2026 18.x.x
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Affected surface or editor language
+      placeholder: Solution Explorer selection, C# interface names, Razor directives...
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Reproduction and expected behavior
+      description: Describe the steps, actual result, and expected result. For a deferred-theme report, name the theme here.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optional)
+      description: Use demonstration code. Remove private code, paths, account details, and secrets.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Additional environment details (optional)
+      description: If relevant, include display/text scaling, architecture, Windows version, Editor Appearance, theme overrides, or extensions that affect the surface. An experimental-profile reproduction is helpful but not required.

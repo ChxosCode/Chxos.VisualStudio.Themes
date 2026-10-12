@@ -1,0 +1,195 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - soxhc/public-release
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-build-package:
+    runs-on: windows-2025-vs2026
+    timeout-minutes: 360
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install .NET SDK 10
+        uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
+        with:
+          global-json-file: global.json
+          cache: true
+          cache-dependency-path: Chxos.VisualStudio.Themes/packages.lock.json
+
+      - name: Generate missing deferred theme sources
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Generate-Themes.ps1 -MissingDeferred
+
+      - name: Restore locked dependencies
+        shell: powershell
+        run: dotnet restore .\Chxos.VisualStudio.Themes.slnx --locked-mode -p:Configuration=Release
+
+      - name: Validate theme sources
+        shell: powershell
+        run: powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Chxos.VisualStudio.Themes\tools\Test-ThemeContrast.ps1 -ThemeDirectory .\Chxos.VisualStudio.Themes -CoverageReportPath .\artifacts\ci\coverage.json
+
+      - name: Check generated themes
+        shell: powershell
+        run: powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Chxos.VisualStudio.Themes\tools\Generate-Themes.ps1 -Check
+
+      - name: Test compiler catalog isolation
+        shell: powershell
+        run: powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Chxos.VisualStudio.Themes\tools\Test-CompilerCatalog.Tests.ps1
+
+      - name: Test contextual contrast
+        shell: powershell
+        run: powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Chxos.VisualStudio.Themes\tools\Test-ContextualContrast.Tests.ps1
+
+      - name: Test rendering contract metadata and evidence
+        shell: powershell
+        run: powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Chxos.VisualStudio.Themes\tools\Test-RenderingContracts.Tests.ps1
+
+      - name: Test priority theme refinements and selection scope
+        shell: powershell
+        run: powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Chxos.VisualStudio.Themes\tools\Test-PriorityThemeRefinements.Tests.ps1
+
+      - name: Test debugger highlight readability
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Test-DebuggerHighlights.Tests.ps1
+
+      - name: Test editor RGB fills and diff texture
+        shell: powershell
+        run: powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Chxos.VisualStudio.Themes\tools\Test-EditorSurfaceContrast.Tests.ps1
+
+      - name: Test CSharp and Razor semantic color differentiation
+        shell: powershell
+        run: powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Chxos.VisualStudio.Themes\tools\Test-EditorSemanticColors.Tests.ps1
+
+      - name: Build representative CSharp and Razor editor files
+        shell: powershell
+        run: dotnet build .\Chxos.VisualStudio.Themes\tools\VisualAuditFixture\VisualAuditFixture.csproj --configuration Release
+
+      - name: Test runtime evidence gates
+        shell: powershell
+        run: powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Chxos.VisualStudio.Themes\tools\Test-RuntimeAcceptance.Tests.ps1
+
+      - name: Test theme generation
+        shell: powershell
+        run: powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Chxos.VisualStudio.Themes\tools\Test-ThemeGeneration.Tests.ps1
+
+      - name: Test public source and evidence boundaries
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Test-PublicRepository.Tests.ps1
+
+      - name: Test product release preparation boundaries
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Test-ReleaseWorkflows.Tests.ps1
+
+      - name: Run validator regression suite
+        shell: powershell
+        run: powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Chxos.VisualStudio.Themes\tools\Test-ThemeContrast.Tests.ps1
+
+      - name: Run visual-audit analysis regression suite
+        shell: powershell
+        run: powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Chxos.VisualStudio.Themes\tools\Test-VisualAudit.Tests.ps1
+
+      - name: Build and inspect pilot products and development collection
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Build-ThemePackages.ps1 -Package foundation,pinknoise,cosmora,all-dev -OutputDirectory ./artifacts/ci/packages
+
+      - name: Test package metadata, archives, payload equality, and runtime scoping
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Test-ThemePackages.Tests.ps1
+
+      - name: Test package build isolation
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Test-PackageBuildIsolation.Tests.ps1 -Package foundation,pinknoise,cosmora,all-dev -OutputDirectory ./artifacts/ci/isolation
+
+      - name: Test clean isolated package restore and build
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Test-PackageCleanBuild.Tests.ps1 -Package foundation,pinknoise,cosmora,all-dev -OutputDirectory ./artifacts/ci/clean-build
+
+      - name: Test compatibility boundaries for every package
+        shell: powershell
+        run: |
+          Import-Module ./Chxos.VisualStudio.Themes/tools/PackageCatalog.psm1
+          foreach ($package in (Read-PackageCatalog).Packages) {
+            $key = $package.Key
+            ./Chxos.VisualStudio.Themes/tools/Test-VsixEligibility.Tests.ps1 -Package $key -VsixPath "./Chxos.VisualStudio.Themes/bin/Release/$key/$key-$($package.Version).vsix"
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }
+
+      - name: Test public artifact staging and failure boundaries
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Test-PublicArtifacts.Tests.ps1
+
+      - name: Show failed package command diagnostics
+        if: failure()
+        shell: powershell
+        run: |
+          foreach ($file in @(Get-ChildItem -Path ./artifacts/ci/packages/*/build.json -File -ErrorAction SilentlyContinue)) {
+            $report = Get-Content -LiteralPath $file.FullName -Raw | ConvertFrom-Json
+            foreach ($command in @($report.Commands | Where-Object { $_.ExitCode -ne 0 })) {
+              if ($command.Name -notmatch '^(theme-drift|package-drift|source-validation|(foundation|pinknoise|cosmora|all-dev)-(restore|build|inspection))$') { continue }
+              Write-Output ("{0} failed with exit code {1}" -f $command.Name, $command.ExitCode)
+              $log = Join-Path $file.DirectoryName ($command.Name + '.log')
+              if (Test-Path -LiteralPath $log -PathType Leaf) { Get-Content -LiteralPath $log -Tail 80 }
+            }
+          }
+
+      - name: Stage unqualified public candidates
+        shell: powershell
+        run: |
+          $reports = @(Get-ChildItem -Path ./artifacts/ci/packages/*/build.json -File)
+          if ($reports.Count -ne 1) { throw 'Expected exactly one package build report.' }
+          ./Chxos.VisualStudio.Themes/tools/Stage-PublicArtifacts.ps1 -BuildReportPath $reports[0].FullName -OutputDirectory ./artifacts/public-candidates
+
+      - name: Verify public upload allowlist
+        id: verify_public
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Stage-PublicArtifacts.ps1 -Check -OutputDirectory ./artifacts/public-candidates
+
+      - name: Upload foundation unqualified candidate
+        if: ${{ success() && steps.verify_public.outcome == 'success' }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: foundation-unqualified-candidate
+          path: |
+            artifacts/public-candidates/foundation/foundation.vsix
+            artifacts/public-candidates/foundation/candidate.json
+            artifacts/public-candidates/foundation/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload pinknoise unqualified candidate
+        if: ${{ success() && steps.verify_public.outcome == 'success' }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: pinknoise-unqualified-candidate
+          path: |
+            artifacts/public-candidates/pinknoise/pinknoise.vsix
+            artifacts/public-candidates/pinknoise/candidate.json
+            artifacts/public-candidates/pinknoise/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload cosmora unqualified candidate
+        if: ${{ success() && steps.verify_public.outcome == 'success' }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: cosmora-unqualified-candidate
+          path: |
+            artifacts/public-candidates/cosmora/cosmora.vsix
+            artifacts/public-candidates/cosmora/candidate.json
+            artifacts/public-candidates/cosmora/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 14

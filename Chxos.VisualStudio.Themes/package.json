@@ -1,0 +1,16 @@
+{
+  "name": "chxos-theme-assets",
+  "private": true,
+  "description": "Optional renderer for checked-in theme package artwork",
+  "engines": {
+    "node": ">=20.9.0",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "assets:check": "node tools/Render-PackageAssets.cjs --check",
+    "assets:render": "node tools/Render-PackageAssets.cjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.5"
+  }
+}

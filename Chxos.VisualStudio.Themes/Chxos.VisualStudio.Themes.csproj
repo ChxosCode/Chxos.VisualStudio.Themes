@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<MinimumVisualStudioVersion>18.0</MinimumVisualStudioVersion>
+		<VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+		<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+		<RuntimeIdentifiers>win;win-arm64;win-x64</RuntimeIdentifiers>
+		<Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
+		<ThemePackage Condition="'$(ThemePackage)' == ''">all-dev</ThemePackage>
+		<ThemePackageKey>_invalid</ThemePackageKey>
+	</PropertyGroup>
+	<Import Project="PackageCatalog.props" />
+	<PropertyGroup>
+		<BaseIntermediateOutputPath>obj\packages\$(ThemePackageKey)\$(Configuration)\</BaseIntermediateOutputPath>
+		<MSBuildProjectExtensionsPath>$(MSBuildProjectDirectory)\$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
+		<IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+		<OutputPath>bin\$(Configuration)\$(ThemePackageKey)\</OutputPath>
+	</PropertyGroup>
+	<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<SchemaVersion>2.0</SchemaVersion>
+		<ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+		<ProjectGuid>{7DEB7B16-125B-49AD-9138-7EBC39147833}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<AppDesignerFolder>Properties</AppDesignerFolder>
+		<RootNamespace>Chxos.VisualStudio.Themes</RootNamespace>
+		<AssemblyName>Chxos.VisualStudio.Themes</AssemblyName>
+		<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+		<GeneratePkgDefFile>false</GeneratePkgDefFile>
+		<CreateVsixContainer>true</CreateVsixContainer>
+		<DeployExtension Condition="'$(BuildingInsideVisualStudio)' == 'true'">true</DeployExtension>
+		<DeployExtension Condition="'$(BuildingInsideVisualStudio)' != 'true'">false</DeployExtension>
+		<VsixDeployOnDebug Condition="'$(BuildingInsideVisualStudio)' == 'true'">true</VsixDeployOnDebug>
+		<VsixDeployOnDebug Condition="'$(BuildingInsideVisualStudio)' != 'true'">false</VsixDeployOnDebug>
+		<IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
+		<StartAction>Program</StartAction>
+		<StartProgram Condition="'$(DevEnvDir)' != ''">$(DevEnvDir)devenv.exe</StartProgram>
+		<StartArguments>/rootsuffix Exp</StartArguments>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<DefineConstants>TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="tools\Test-ThemeContrast.ps1" />
+		<None Include="tools\Test-ThemeContrast.Tests.ps1" />
+		<None Include="tools\Test-VisualAudit.Tests.ps1" />
+		<None Include="tools\Test-VsixPackage.ps1" />
+		<None Include="tools\ThemeRolePolicy.psd1" />
+		<None Include="tools\Invoke-ThemeVisualAudit.ps1" />
+		<None Include="tools\VisualAudit.Common.psm1" />
+		<None Include="tools\VisualAuditFixture\**\*"
+		      Exclude="tools\VisualAuditFixture\.vs\**\*;tools\VisualAuditFixture\bin\**\*;tools\VisualAuditFixture\obj\**\*;tools\VisualAuditFixture\**\*.user" />
+		<None Include="$(ThemePackageManifest)">
+			<SubType>Designer</SubType>
+		</None>
+		<SourceVsixManifest Include="$(ThemePackageManifest)" />
+		<None Include="authoring\PackageCatalog.json" />
+		<None Include="packaging\manifest.template.xml" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="..\LICENSE.txt">
+			<Link>LICENSE.txt</Link>
+			<IncludeInVSIX>true</IncludeInVSIX>
+		</Content>
+		<Content Include="$(ThemePackageIcon)">
+			<Link>assets\icon.png</Link>
+			<IncludeInVSIX>true</IncludeInVSIX>
+		</Content>
+		<Content Include="$(ThemePackagePreview)">
+			<Link>assets\preview.png</Link>
+			<IncludeInVSIX>true</IncludeInVSIX>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.VisualStudio.VsixColorCompiler" Version="17.11.35325.10" />
+		<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="18.5.40034">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+	<Import Project="ThemeCatalog.props" />
+	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+	<Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="Exists('$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets')" />
+	<!-- Override the compiler package's recursive *.vstheme discovery. Only the
+	     generated catalog is eligible for compilation and VSIX inclusion. -->
+	<ItemGroup>
+		<VsTheme Include="@(SelectedTheme)"><Visible>False</Visible></VsTheme>
+	</ItemGroup>
+	<!-- The package conditions evaluate VsTheme before target dependencies.
+	     Populate it above during evaluation, then suppress recursive discovery. -->
+	<Target Name="AddVsThemeFile" BeforeTargets="BeforeBuild" />
+	<Target Name="ValidateThemePackageSelection" BeforeTargets="Restore;PrepareForBuild;AddVsThemeFile">
+		<Error Condition="'$(ThemePackageKnown)' != 'true'" Text="Unknown ThemePackage '$(ThemePackage)'. Select an exact package catalog key." />
+		<Exec Command="powershell.exe -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildProjectDirectory)\tools\Generate-ThemePackages.ps1&quot; -Check" Condition="'$(DesignTimeBuild)' != 'true'" />
+	</Target>
+	<Target Name="RequireRestoredVsixTools" BeforeTargets="PrepareForBuild" Condition="'$(DesignTimeBuild)' != 'true'">
+		<Error Condition="!Exists('$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets')" Text="Restore locked dependencies for this ThemePackage and Configuration before building." />
+	</Target>
+	<Target Name="BootstrapDeferredThemes" BeforeTargets="AddVsThemeFile;CheckGeneratedThemes" Condition="'$(DesignTimeBuild)' != 'true'">
+		<Exec Command="powershell.exe -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildProjectDirectory)\tools\Generate-Themes.ps1&quot; -MissingDeferred" />
+	</Target>
+	<Target Name="CheckGeneratedThemes" BeforeTargets="ValidateThemeContrast" Condition="'$(DesignTimeBuild)' != 'true'">
+		<Exec Command="powershell.exe -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildProjectDirectory)\tools\Generate-Themes.ps1&quot; -Check" />
+	</Target>
+	<Target Name="ValidateThemeContrast" BeforeTargets="PrepareForBuild" Condition="'$(DesignTimeBuild)' != 'true'">
+		<Exec Command="powershell.exe -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildProjectDirectory)\tools\Test-ThemeContrast.ps1&quot; -ThemeDirectory &quot;$(MSBuildProjectDirectory)&quot;" />
+	</Target>
+</Project>

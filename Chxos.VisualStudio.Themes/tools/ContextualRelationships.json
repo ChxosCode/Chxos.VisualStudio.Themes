@@ -1,0 +1,1766 @@
+[
+  {
+    "group": "F01",
+    "foreground": [
+      "ThemedDialog",
+      "ActionButtonTextActive",
+      "Background"
+    ],
+    "background": [
+      "ThemedDialog",
+      "ActionButtonBackgroundActive",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F01-001",
+    "contentType": "text",
+    "state": "ActionButtonTextActive",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "ThemedDialog"
+  },
+  {
+    "group": "F01",
+    "foreground": [
+      "UserNotifications",
+      "BadgeButtonCriticalActiveGlyph",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "BadgeButtonCriticalActive",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F01-002",
+    "contentType": "glyph",
+    "state": "BadgeButtonCriticalActiveGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F01",
+    "foreground": [
+      "UserNotifications",
+      "BadgeButtonCriticalInactiveGlyph",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "BadgeButtonCriticalInactive",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F01-003",
+    "contentType": "glyph",
+    "state": "BadgeButtonCriticalInactiveGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F01",
+    "foreground": [
+      "UserNotifications",
+      "BadgeButtonVSUpdateActiveGlyph",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "BadgeButtonVSUpdateActive",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F01-004",
+    "contentType": "glyph",
+    "state": "BadgeButtonVSUpdateActiveGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F01",
+    "foreground": [
+      "UserNotifications",
+      "BadgeButtonVSUpdateInactiveGlyph",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "BadgeButtonVSUpdateInactive",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F01-005",
+    "contentType": "glyph",
+    "state": "BadgeButtonVSUpdateInactiveGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F01",
+    "foreground": [
+      "UserNotifications",
+      "BadgeButtonMouseOverCriticalActiveGlyph",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "BadgeButtonMouseOverCriticalActive",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F01-006",
+    "contentType": "glyph",
+    "state": "BadgeButtonMouseOverCriticalActiveGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F01",
+    "foreground": [
+      "UserNotifications",
+      "BadgeButtonMouseOverCriticalInactiveGlyph",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "BadgeButtonMouseOverCriticalInactive",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F01-007",
+    "contentType": "glyph",
+    "state": "BadgeButtonMouseOverCriticalInactiveGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F01",
+    "foreground": [
+      "UserNotifications",
+      "BadgeButtonMouseOverVSUpdateActiveGlyph",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "BadgeButtonMouseOverVSUpdateActive",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F01-008",
+    "contentType": "glyph",
+    "state": "BadgeButtonMouseOverVSUpdateActiveGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F01",
+    "foreground": [
+      "UserNotifications",
+      "BadgeButtonMouseOverVSUpdateInactiveGlyph",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "BadgeButtonMouseOverVSUpdateInactive",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F01-009",
+    "contentType": "glyph",
+    "state": "BadgeButtonMouseOverVSUpdateInactiveGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F01",
+    "foreground": [
+      "NotificationBubble",
+      "NotificationBubbleWindowButtonDownGlyph",
+      "Background"
+    ],
+    "background": [
+      "NotificationBubble",
+      "NotificationBubbleWindowButtonDown",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F01-010",
+    "contentType": "glyph",
+    "state": "NotificationBubbleWindowButtonDownGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "NotificationBubble"
+  },
+  {
+    "group": "F01",
+    "foreground": [
+      "NotificationBubble",
+      "NotificationBubbleWindowButtonGlyph",
+      "Background"
+    ],
+    "background": [
+      "NotificationBubble",
+      "NotificationBubbleWindowButton",
+      "Background"
+    ],
+    "bases": [
+      [
+        "NotificationBubble",
+        "NotificationBubbleWindowPanel",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F01-011",
+    "contentType": "glyph",
+    "state": "NotificationBubbleWindowButtonGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "NotificationBubble"
+  },
+  {
+    "group": "F02",
+    "foreground": [
+      "UserNotifications",
+      "ToastActionButtonTextHover",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "ToastActionButtonHover",
+      "Background"
+    ],
+    "bases": [
+      [
+        "UserNotifications",
+        "ToastPanelBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F02-012",
+    "contentType": "text",
+    "state": "ToastActionButtonTextHover",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F02",
+    "foreground": [
+      "UserNotifications",
+      "ToastActionButtonTextPressed",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "ToastActionButtonPressed",
+      "Background"
+    ],
+    "bases": [
+      [
+        "UserNotifications",
+        "ToastPanelBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F02-013",
+    "contentType": "text",
+    "state": "ToastActionButtonTextPressed",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F02",
+    "foreground": [
+      "UserNotifications",
+      "TitleMouseOverText",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "NotificationMouseOverBackground",
+      "Background"
+    ],
+    "bases": [
+      [
+        "UserNotifications",
+        "NotificationBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F02-014",
+    "contentType": "text",
+    "state": "TitleMouseOverText",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F02",
+    "foreground": [
+      "UserNotifications",
+      "SubtitleMouseOverText",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "NotificationMouseOverBackground",
+      "Background"
+    ],
+    "bases": [
+      [
+        "UserNotifications",
+        "NotificationBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F02-015",
+    "contentType": "text",
+    "state": "SubtitleMouseOverText",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F02",
+    "foreground": [
+      "UserNotifications",
+      "TitleSelectedText",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "NotificationSelectedBackground",
+      "Background"
+    ],
+    "bases": [
+      [
+        "UserNotifications",
+        "NotificationBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F02-016",
+    "contentType": "text",
+    "state": "TitleSelectedText",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F02",
+    "foreground": [
+      "UserNotifications",
+      "SubtitleSelectedText",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "NotificationSelectedBackground",
+      "Background"
+    ],
+    "bases": [
+      [
+        "UserNotifications",
+        "NotificationBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F02-017",
+    "contentType": "text",
+    "state": "SubtitleSelectedText",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F02",
+    "foreground": [
+      "UserNotifications",
+      "IgnoredTitleMouseOverText",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "IgnoredMouseOverBackground",
+      "Background"
+    ],
+    "bases": [
+      [
+        "UserNotifications",
+        "IgnoredBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F02-018",
+    "contentType": "text",
+    "state": "IgnoredTitleMouseOverText",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F02",
+    "foreground": [
+      "UserNotifications",
+      "IgnoredSubtitleMouseOverText",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "IgnoredMouseOverBackground",
+      "Background"
+    ],
+    "bases": [
+      [
+        "UserNotifications",
+        "IgnoredBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F02-019",
+    "contentType": "text",
+    "state": "IgnoredSubtitleMouseOverText",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F02",
+    "foreground": [
+      "UserNotifications",
+      "IgnoredTitleSelectedText",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "IgnoredSelectedBackground",
+      "Background"
+    ],
+    "bases": [
+      [
+        "UserNotifications",
+        "IgnoredBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F02-020",
+    "contentType": "text",
+    "state": "IgnoredTitleSelectedText",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F02",
+    "foreground": [
+      "UserNotifications",
+      "IgnoredSubtitleSelectedText",
+      "Background"
+    ],
+    "background": [
+      "UserNotifications",
+      "IgnoredSelectedBackground",
+      "Background"
+    ],
+    "bases": [
+      [
+        "UserNotifications",
+        "IgnoredBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F02-021",
+    "contentType": "text",
+    "state": "IgnoredSubtitleSelectedText",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "UserNotifications"
+  },
+  {
+    "group": "F02",
+    "foreground": [
+      "TeamExplorer",
+      "TETileListForegroundMouseOver",
+      "Background"
+    ],
+    "background": [
+      "TeamExplorer",
+      "TETileListBackgroundMouseOver",
+      "Background"
+    ],
+    "bases": [
+      [
+        "TeamExplorer",
+        "TETileListBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F02-022",
+    "contentType": "text",
+    "state": "TETileListForegroundMouseOver",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "TeamExplorer"
+  },
+  {
+    "group": "F02",
+    "foreground": [
+      "TeamExplorer",
+      "TETileListForegroundSelected",
+      "Background"
+    ],
+    "background": [
+      "TeamExplorer",
+      "TETileListBackgroundSelected",
+      "Background"
+    ],
+    "bases": [
+      [
+        "TeamExplorer",
+        "TETileListBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F02-023",
+    "contentType": "text",
+    "state": "TETileListForegroundSelected",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "TeamExplorer"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "TreeView",
+      "GlyphMouseOver",
+      "Background"
+    ],
+    "background": [
+      "TreeView",
+      "Background",
+      "Background"
+    ],
+    "bases": [
+      [
+        "TreeView",
+        "Background",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F03-024",
+    "contentType": "glyph",
+    "state": "GlyphMouseOver",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "TreeView"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "TreeView",
+      "SelectedItemActiveGlyph",
+      "Background"
+    ],
+    "background": [
+      "TreeView",
+      "SelectedItemActive",
+      "Background"
+    ],
+    "bases": [
+      [
+        "TreeView",
+        "Background",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F03-025",
+    "contentType": "glyph",
+    "state": "SelectedItemActiveGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "TreeView"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "TreeView",
+      "SelectedItemActiveGlyphMouseOver",
+      "Background"
+    ],
+    "background": [
+      "TreeView",
+      "SelectedItemActive",
+      "Background"
+    ],
+    "bases": [
+      [
+        "TreeView",
+        "Background",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F03-026",
+    "contentType": "glyph",
+    "state": "SelectedItemActiveGlyphMouseOver",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "TreeView"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "TreeView",
+      "SelectedItemInactiveGlyph",
+      "Background"
+    ],
+    "background": [
+      "TreeView",
+      "SelectedItemInactive",
+      "Background"
+    ],
+    "bases": [
+      [
+        "TreeView",
+        "Background",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F03-027",
+    "contentType": "glyph",
+    "state": "SelectedItemInactiveGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "TreeView"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "TreeView",
+      "SelectedItemInactiveGlyphMouseOver",
+      "Background"
+    ],
+    "background": [
+      "TreeView",
+      "SelectedItemInactive",
+      "Background"
+    ],
+    "bases": [
+      [
+        "TreeView",
+        "Background",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F03-028",
+    "contentType": "glyph",
+    "state": "SelectedItemInactiveGlyphMouseOver",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "TreeView"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "TreeView",
+      "DragOverItemGlyph",
+      "Background"
+    ],
+    "background": [
+      "TreeView",
+      "DragOverItem",
+      "Background"
+    ],
+    "bases": [
+      [
+        "TreeView",
+        "Background",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F03-029",
+    "contentType": "glyph",
+    "state": "DragOverItemGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "TreeView"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "TreeView",
+      "DragOverItemGlyphMouseOver",
+      "Background"
+    ],
+    "background": [
+      "TreeView",
+      "DragOverItem",
+      "Background"
+    ],
+    "bases": [
+      [
+        "TreeView",
+        "Background",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F03-030",
+    "contentType": "glyph",
+    "state": "DragOverItemGlyphMouseOver",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "TreeView"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "CommonControls",
+      "CheckBoxGlyphFocused",
+      "Background"
+    ],
+    "background": [
+      "CommonControls",
+      "CheckBoxBackgroundFocused",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Shell",
+        "SolidBackgroundFillSecondary",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named pair; panel underlay assumption",
+    "id": "F03-031",
+    "contentType": "glyph",
+    "state": "CheckBoxGlyphFocused",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "CommonControls"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "CommonControls",
+      "CheckBoxGlyphHover",
+      "Background"
+    ],
+    "background": [
+      "CommonControls",
+      "CheckBoxBackgroundHover",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Shell",
+        "SolidBackgroundFillSecondary",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named pair; panel underlay assumption",
+    "id": "F03-032",
+    "contentType": "glyph",
+    "state": "CheckBoxGlyphHover",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "CommonControls"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "CommonControls",
+      "CheckBoxGlyphPressed",
+      "Background"
+    ],
+    "background": [
+      "CommonControls",
+      "CheckBoxBackgroundPressed",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Shell",
+        "SolidBackgroundFillSecondary",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named pair; panel underlay assumption",
+    "id": "F03-033",
+    "contentType": "glyph",
+    "state": "CheckBoxGlyphPressed",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "CommonControls"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "InfoBar",
+      "CloseButtonHoverGlyph",
+      "Background"
+    ],
+    "background": [
+      "InfoBar",
+      "CloseButtonHover",
+      "Background"
+    ],
+    "bases": [
+      [
+        "InfoBar",
+        "InfoBarBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F03-034",
+    "contentType": "glyph",
+    "state": "CloseButtonHoverGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "InfoBar"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "Header",
+      "MouseOverGlyph",
+      "Background"
+    ],
+    "background": [
+      "Header",
+      "MouseOver",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Header",
+        "Default",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F03-035",
+    "contentType": "glyph",
+    "state": "MouseOverGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "Header"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "SearchControl",
+      "ActionButtonMouseOverGlyph",
+      "Background"
+    ],
+    "background": [
+      "SearchControl",
+      "ActionButtonMouseOver",
+      "Background"
+    ],
+    "bases": [
+      [
+        "SearchControl",
+        "Unfocused",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named pair; search underlay assumption",
+    "id": "F03-036",
+    "contentType": "glyph",
+    "state": "ActionButtonMouseOverGlyph",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "SearchControl"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "Header",
+      "MouseDownGlyph",
+      "Background"
+    ],
+    "background": [
+      "Header",
+      "MouseDown",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Header",
+        "Default",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named source pair",
+    "id": "F03-037",
+    "contentType": "glyph",
+    "state": "MouseDownGlyph",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "Header"
+  },
+  {
+    "group": "F03",
+    "foreground": [
+      "SearchControl",
+      "ActionButtonMouseDownGlyph",
+      "Background"
+    ],
+    "background": [
+      "SearchControl",
+      "ActionButtonMouseDown",
+      "Background"
+    ],
+    "bases": [
+      [
+        "SearchControl",
+        "Unfocused",
+        "Background"
+      ]
+    ],
+    "minimum": 3,
+    "confidence": "named pair; search underlay assumption",
+    "id": "F03-038",
+    "contentType": "glyph",
+    "state": "ActionButtonMouseDownGlyph",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "SearchControl"
+  },
+  {
+    "group": "F04",
+    "foreground": [
+      "NavigateTo",
+      "ResultList",
+      "Foreground"
+    ],
+    "background": [
+      "NavigateTo",
+      "ResultList",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Shell",
+        "SolidBackgroundFillSecondary",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "explicit pair; panel underlay assumption",
+    "id": "F04-039",
+    "contentType": "text",
+    "state": "ResultList",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "NavigateTo"
+  },
+  {
+    "group": "F04",
+    "foreground": [
+      "NavigateTo",
+      "ResultListDescriptionText",
+      "Background"
+    ],
+    "background": [
+      "NavigateTo",
+      "ResultList",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Shell",
+        "SolidBackgroundFillSecondary",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named pair; panel underlay assumption",
+    "id": "F04-040",
+    "contentType": "text",
+    "state": "ResultListDescriptionText",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "NavigateTo"
+  },
+  {
+    "group": "F04",
+    "foreground": [
+      "NavigateTo",
+      "ResultListItem",
+      "Foreground"
+    ],
+    "background": [
+      "NavigateTo",
+      "ResultListItem",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Shell",
+        "SolidBackgroundFillSecondary",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "explicit pair; panel underlay assumption",
+    "id": "F04-041",
+    "contentType": "text",
+    "state": "ResultListItem",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "NavigateTo"
+  },
+  {
+    "group": "F04",
+    "foreground": [
+      "NavigateTo",
+      "ResultListItemDescriptionText",
+      "Background"
+    ],
+    "background": [
+      "NavigateTo",
+      "ResultListItem",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Shell",
+        "SolidBackgroundFillSecondary",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named pair; panel underlay assumption",
+    "id": "F04-042",
+    "contentType": "text",
+    "state": "ResultListItemDescriptionText",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "NavigateTo"
+  },
+  {
+    "group": "F04",
+    "foreground": [
+      "Output Window",
+      "urlformat",
+      "Foreground"
+    ],
+    "background": [
+      "Output Window",
+      "urlformat",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Output Window",
+        "Plain Text",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F04-043",
+    "contentType": "text",
+    "state": "urlformat",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "Output Window"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "InfoBar",
+      "Hyperlink",
+      "Foreground"
+    ],
+    "background": [
+      "InfoBar",
+      "InfoBarBackground",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named pair",
+    "id": "F05-044",
+    "contentType": "text",
+    "state": "Hyperlink",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "InfoBar"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "InfoBar",
+      "HyperlinkMouseDown",
+      "Foreground"
+    ],
+    "background": [
+      "InfoBar",
+      "InfoBarBackground",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named pair",
+    "id": "F05-045",
+    "contentType": "text",
+    "state": "HyperlinkMouseDown",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "InfoBar"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "InfoBar",
+      "HyperlinkMouseOver",
+      "Foreground"
+    ],
+    "background": [
+      "InfoBar",
+      "InfoBarBackground",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named pair",
+    "id": "F05-046",
+    "contentType": "text",
+    "state": "HyperlinkMouseOver",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "InfoBar"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "ACDCOverview",
+      "Hyperlink",
+      "Foreground"
+    ],
+    "background": [
+      "ACDCOverview",
+      "Body",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named pair",
+    "id": "F05-047",
+    "contentType": "text",
+    "state": "Hyperlink",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "ACDCOverview"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "ACDCOverview",
+      "HyperlinkActive",
+      "Foreground"
+    ],
+    "background": [
+      "ACDCOverview",
+      "Body",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named pair",
+    "id": "F05-048",
+    "contentType": "text",
+    "state": "HyperlinkActive",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "ACDCOverview"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "ACDCOverview",
+      "HyperlinkHover",
+      "Foreground"
+    ],
+    "background": [
+      "ACDCOverview",
+      "Body",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named pair",
+    "id": "F05-049",
+    "contentType": "text",
+    "state": "HyperlinkHover",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "ACDCOverview"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "NewProjectDialog",
+      "Hyperlink",
+      "Background"
+    ],
+    "background": [
+      "NewProjectDialog",
+      "Background",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named pair",
+    "id": "F05-050",
+    "contentType": "text",
+    "state": "Hyperlink",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "NewProjectDialog"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "NewProjectDialog",
+      "HyperlinkHover",
+      "Background"
+    ],
+    "background": [
+      "NewProjectDialog",
+      "Background",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named pair",
+    "id": "F05-051",
+    "contentType": "text",
+    "state": "HyperlinkHover",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "NewProjectDialog"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "CommonDocumentCard",
+      "CardHyperlinkHover",
+      "Background"
+    ],
+    "background": [
+      "CommonDocumentCard",
+      "CardPanel",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named pair",
+    "id": "F05-052",
+    "contentType": "text",
+    "state": "CardHyperlinkHover",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "CommonDocumentCard"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "NotificationBubble",
+      "NotificationBubbleHyperlink",
+      "Background"
+    ],
+    "background": [
+      "NotificationBubble",
+      "NotificationBubbleBackground",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named pair",
+    "id": "F05-053",
+    "contentType": "text",
+    "state": "NotificationBubbleHyperlink",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "NotificationBubble"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "TeamExplorer",
+      "ActionLinkItem",
+      "Foreground"
+    ],
+    "background": [
+      "TeamExplorer",
+      "TETileListBackground",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "same-category panel assumption",
+    "id": "F05-054",
+    "contentType": "text",
+    "state": "ActionLinkItem",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "TeamExplorer"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "TeamExplorer",
+      "ActionLinkItemHover",
+      "Foreground"
+    ],
+    "background": [
+      "TeamExplorer",
+      "TETileListBackground",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "same-category panel assumption",
+    "id": "F05-055",
+    "contentType": "text",
+    "state": "ActionLinkItemHover",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "TeamExplorer"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "Environment",
+      "HelpSearchText",
+      "Background"
+    ],
+    "background": [
+      "Environment",
+      "HelpSearchBackground",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F05-056",
+    "contentType": "text",
+    "state": "HelpSearchText",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "Environment"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "Environment",
+      "HelpSearchFilterText",
+      "Background"
+    ],
+    "background": [
+      "Environment",
+      "HelpSearchFilterBackground",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F05-057",
+    "contentType": "text",
+    "state": "HelpSearchFilterText",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "Environment"
+  },
+  {
+    "group": "F05",
+    "foreground": [
+      "Environment",
+      "HelpSearchFrameText",
+      "Background"
+    ],
+    "background": [
+      "Environment",
+      "HelpSearchFrameBackground",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F05-058",
+    "contentType": "text",
+    "state": "HelpSearchFrameText",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "Environment"
+  },
+  {
+    "group": "F06",
+    "foreground": [
+      "Text Editor MEF Items",
+      "inline diagnostics - syntax error",
+      "Foreground"
+    ],
+    "background": [
+      "Text Editor Text Manager Items",
+      "Plain Text",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "Installed Roslyn source revision: transparent adornment interior over editor; BackgroundBrush is border only.",
+    "id": "F06-059",
+    "contentType": "text",
+    "state": "inline diagnostics - syntax error",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "https://raw.githubusercontent.com/dotnet/roslyn/35d9211b841e7613c1d2f8f5af6d628ace696c4c/src/EditorFeatures/Core/InlineDiagnostics/InlineDiagnosticsTag.cs; lines 62, 93-95, 109, 166-171, 181-187. Assembly/product/source hashes retained in inline-diagnostic-consumer.json.",
+    "runtimeScenario": "Text Editor MEF Items"
+  },
+  {
+    "group": "F06",
+    "foreground": [
+      "Text Editor MEF Items",
+      "inline diagnostics - compiler warning",
+      "Foreground"
+    ],
+    "background": [
+      "Text Editor Text Manager Items",
+      "Plain Text",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "Installed Roslyn source revision: transparent adornment interior over editor; BackgroundBrush is border only.",
+    "id": "F06-060",
+    "contentType": "text",
+    "state": "inline diagnostics - compiler warning",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "https://raw.githubusercontent.com/dotnet/roslyn/35d9211b841e7613c1d2f8f5af6d628ace696c4c/src/EditorFeatures/Core/InlineDiagnostics/InlineDiagnosticsTag.cs; lines 62, 93-95, 109, 166-171, 181-187. Assembly/product/source hashes retained in inline-diagnostic-consumer.json.",
+    "runtimeScenario": "Text Editor MEF Items"
+  },
+  {
+    "group": "F06",
+    "foreground": [
+      "Text Editor MEF Items",
+      "inline diagnostics - Edit and Continue",
+      "Foreground"
+    ],
+    "background": [
+      "Text Editor Text Manager Items",
+      "Plain Text",
+      "Background"
+    ],
+    "bases": [],
+    "minimum": 4.5,
+    "confidence": "Installed Roslyn source revision: transparent adornment interior over editor; BackgroundBrush is border only.",
+    "id": "F06-061",
+    "contentType": "text",
+    "state": "inline diagnostics - Edit and Continue",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "https://raw.githubusercontent.com/dotnet/roslyn/35d9211b841e7613c1d2f8f5af6d628ace696c4c/src/EditorFeatures/Core/InlineDiagnostics/InlineDiagnosticsTag.cs; lines 62, 93-95, 109, 166-171, 181-187. Assembly/product/source hashes retained in inline-diagnostic-consumer.json.",
+    "runtimeScenario": "Text Editor MEF Items"
+  },
+  {
+    "group": "F06",
+    "foreground": [
+      "Text Editor MEF Items",
+      "CodeAnalysisWarningSelection",
+      "Foreground"
+    ],
+    "background": [
+      "Text Editor MEF Items",
+      "CodeAnalysisWarningSelection",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Text Editor Text Manager Items",
+        "Plain Text",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "candidate; consumer type and editor underlay unverified",
+    "id": "F06-062",
+    "contentType": "unresolved",
+    "state": "CodeAnalysisWarningSelection",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "Text Editor MEF Items"
+  },
+  {
+    "group": "F06",
+    "foreground": [
+      "Text Editor MEF Items",
+      "CodeAnalysisKeyEventSelection",
+      "Foreground"
+    ],
+    "background": [
+      "Text Editor MEF Items",
+      "CodeAnalysisKeyEventSelection",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Text Editor Text Manager Items",
+        "Plain Text",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "candidate; consumer type and editor underlay unverified",
+    "id": "F06-063",
+    "contentType": "unresolved",
+    "state": "CodeAnalysisKeyEventSelection",
+    "disposition": "unresolved",
+    "consumerEvidence": "September 4 source audit; consumer or underlay not established. Do not enforce screening assumption.",
+    "runtimeScenario": "Text Editor MEF Items"
+  },
+  {
+    "group": "F07",
+    "foreground": [
+      "ApplicationInsights",
+      "ButtonHover",
+      "Foreground"
+    ],
+    "background": [
+      "ApplicationInsights",
+      "ButtonHover",
+      "Background"
+    ],
+    "bases": [
+      [
+        "ApplicationInsights",
+        "LandingPageBackground",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F07-064",
+    "contentType": "text",
+    "state": "ButtonHover",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "ApplicationInsights"
+  },
+  {
+    "group": "F07",
+    "foreground": [
+      "ACDCOverview",
+      "NumberedListItemActive",
+      "Foreground"
+    ],
+    "background": [
+      "ACDCOverview",
+      "NumberedListItemActive",
+      "Background"
+    ],
+    "bases": [
+      [
+        "ACDCOverview",
+        "Body",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F07-065",
+    "contentType": "text",
+    "state": "NumberedListItemActive",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "ACDCOverview"
+  },
+  {
+    "group": "F07",
+    "foreground": [
+      "Output Window",
+      "Current List Location",
+      "Foreground"
+    ],
+    "background": [
+      "Output Window",
+      "Current List Location",
+      "Background"
+    ],
+    "bases": [
+      [
+        "Output Window",
+        "Plain Text",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F07-066",
+    "contentType": "text",
+    "state": "Current List Location",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "Output Window"
+  },
+  {
+    "group": "F07",
+    "foreground": [
+      "TreeView",
+      "SelectedItemActive",
+      "Foreground"
+    ],
+    "background": [
+      "TreeView",
+      "SelectedItemActive",
+      "Background"
+    ],
+    "bases": [
+      [
+        "TreeView",
+        "Background",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F07-067",
+    "contentType": "text",
+    "state": "SelectedItemActive",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "TreeView"
+  },
+  {
+    "group": "F07",
+    "foreground": [
+      "TreeView",
+      "SelectedItemInactive",
+      "Foreground"
+    ],
+    "background": [
+      "TreeView",
+      "SelectedItemInactive",
+      "Background"
+    ],
+    "bases": [
+      [
+        "TreeView",
+        "Background",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F07-068",
+    "contentType": "text",
+    "state": "SelectedItemInactive",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "TreeView"
+  },
+  {
+    "group": "F07",
+    "foreground": [
+      "TreeView",
+      "HighlightedSpan",
+      "Foreground"
+    ],
+    "background": [
+      "TreeView",
+      "HighlightedSpan",
+      "Background"
+    ],
+    "bases": [
+      [
+        "TreeView",
+        "Background",
+        "Background"
+      ]
+    ],
+    "minimum": 4.5,
+    "confidence": "named source pair",
+    "id": "F07-069",
+    "contentType": "text",
+    "state": "HighlightedSpan",
+    "disposition": "confirmed-contract",
+    "consumerEvidence": "September 4 source audit; named token contract. Runtime reachability pending.",
+    "runtimeScenario": "TreeView"
+  }
+]

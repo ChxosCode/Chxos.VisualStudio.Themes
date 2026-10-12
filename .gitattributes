@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+*.png binary
+
+# Validation records have byte-level checksums; preserve their original newlines.
+Chxos.VisualStudio.Themes/tools/evidence/**/*.json -text whitespace=cr-at-eol

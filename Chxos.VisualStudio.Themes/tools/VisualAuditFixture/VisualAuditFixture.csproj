@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Diff\*.cs" />
+    <None Include="Diff\*.cs" />
+  </ItemGroup>
+  <Target Name="EmitThemeAuditOutput" AfterTargets="Build">
+    <Message Importance="high" Text="Theme audit URL: https://example.com/cosmora-theme-audit" />
+    <Message Importance="high" Text="$(MSBuildProjectDirectory)\ThemeSample.cs(12,1): Theme audit location for Output selection review." />
+  </Target>
+</Project>

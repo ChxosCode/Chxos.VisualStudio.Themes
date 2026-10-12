@@ -1,0 +1,27 @@
+:root {
+  --audit-surface: #111827;
+  --audit-accent: #38bdf8;
+  --audit-duration: 150ms;
+}
+
+.audit-card {
+  display: grid;
+  gap: 1rem;
+  color: rgb(231 231 231);
+  background: var(--audit-surface);
+  border: 1px solid color-mix(in srgb, var(--audit-accent) 55%, transparent);
+}
+
+.audit-action:hover {
+  translate: 0 -1px;
+  transition: translate var(--audit-duration) ease;
+}
+
+/* Comments, numbers, functions, strings, properties, and punctuation. */
+@media (min-width: 48rem) {
+  .audit-card::before {
+    content: "semantic fixture";
+    opacity: 0.875;
+    transform: translateX(calc(2px + 0.25rem));
+  }
+}

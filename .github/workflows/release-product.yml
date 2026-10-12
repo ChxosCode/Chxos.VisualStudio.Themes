@@ -1,0 +1,97 @@
+name: Prepare selected product
+
+on:
+  workflow_call:
+    inputs:
+      package:
+        required: true
+        type: string
+      version:
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-preparation-${{ inputs.package }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: windows-2025-vs2026
+    timeout-minutes: 120
+    env:
+      RELEASE_PACKAGE: ${{ inputs.package }}
+      RELEASE_VERSION: ${{ inputs.version }}
+    steps:
+      - name: Check out selected revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Validate product, version and optional tag
+        shell: powershell
+        run: |
+          ./Chxos.VisualStudio.Themes/tools/Get-ReleaseTarget.ps1 -Package $env:RELEASE_PACKAGE -Version $env:RELEASE_VERSION -Ref $env:GITHUB_REF
+
+      - name: Install .NET SDK 10
+        uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
+        with:
+          global-json-file: global.json
+          cache: true
+          cache-dependency-path: Chxos.VisualStudio.Themes/packages.lock.json
+
+      - name: Test release workflow boundaries
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Test-ReleaseWorkflows.Tests.ps1
+
+      - name: Check public repository boundaries
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Test-PublicRepository.Tests.ps1
+
+      - name: Build and inspect selected product
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Build-ThemePackages.ps1 -Package $env:RELEASE_PACKAGE -OutputDirectory ./artifacts/release-preparation/packages
+
+      - name: Test selected archive compatibility boundaries
+        shell: powershell
+        run: |
+          ./Chxos.VisualStudio.Themes/tools/Test-VsixEligibility.Tests.ps1 -Package $env:RELEASE_PACKAGE -VsixPath "./Chxos.VisualStudio.Themes/bin/Release/$env:RELEASE_PACKAGE/$env:RELEASE_PACKAGE-$env:RELEASE_VERSION.vsix"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Stage selected unqualified candidate
+        shell: powershell
+        run: |
+          $reports = @(Get-ChildItem -Path ./artifacts/release-preparation/packages/*/build.json -File)
+          if ($reports.Count -ne 1) { throw 'Expected exactly one selected-product build report.' }
+          ./Chxos.VisualStudio.Themes/tools/Stage-PublicArtifacts.ps1 -Package $env:RELEASE_PACKAGE -BuildReportPath $reports[0].FullName -OutputDirectory ./artifacts/release-preparation/candidate
+
+      - name: Verify selected upload allowlist
+        id: verify_candidate
+        shell: powershell
+        run: ./Chxos.VisualStudio.Themes/tools/Stage-PublicArtifacts.ps1 -Package $env:RELEASE_PACKAGE -Check -OutputDirectory ./artifacts/release-preparation/candidate
+
+      - name: Upload selected unqualified candidate
+        if: ${{ success() && steps.verify_candidate.outcome == 'success' }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: ${{ inputs.package }}-${{ inputs.version }}-unqualified-candidate
+          path: |
+            artifacts/release-preparation/candidate/${{ inputs.package }}/${{ inputs.package }}.vsix
+            artifacts/release-preparation/candidate/${{ inputs.package }}/candidate.json
+            artifacts/release-preparation/candidate/${{ inputs.package }}/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Summarize preparation
+        shell: powershell
+        run: |
+          $summary = Get-Content -LiteralPath "./artifacts/release-preparation/candidate/$env:RELEASE_PACKAGE/candidate.json" -Raw | ConvertFrom-Json
+          @(
+            "## $env:RELEASE_PACKAGE $env:RELEASE_VERSION"
+            "Commit: $env:GITHUB_SHA"
+            "Archive SHA-256: $($summary.Sha256)"
+            'Unqualified candidate: runtime acceptance and complete CI are separate.'
+            'No GitHub Release, tag, Marketplace upload or publication was created.'
+          ) | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Encoding utf8 -Append

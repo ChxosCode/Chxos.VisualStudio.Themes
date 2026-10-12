@@ -1,0 +1,286 @@
+[
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Before": "FF3C4733",
+    "After": "FF30412B",
+    "Type": "CT_RAW",
+    "Anchor": "EditorActiveSelectionFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Before": "FF285F61",
+    "After": "FF1C4B4E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorActiveSelectionFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Shell",
+      "ControlSolidFillDefault",
+      "Background"
+    ],
+    "Before": "FF457A78",
+    "After": "FF2D4F4E",
+    "Type": "CT_RAW",
+    "Anchor": "ControlSolidFillDefault"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Before": "FF194A42",
+    "After": "FF143933",
+    "Type": "CT_RAW",
+    "Anchor": "EditorActiveSelectionFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Before": "FF113B35",
+    "After": "FF0F2F2A",
+    "Type": "CT_RAW",
+    "Anchor": "EditorInactiveSelectionFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Before": "FF1C4662",
+    "After": "FF152F46",
+    "Type": "CT_RAW",
+    "Anchor": "EditorActiveSelectionFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Inactive Selected Text",
+      "Background"
+    ],
+    "Before": "FF132E45",
+    "After": "FF11263C",
+    "Type": "CT_RAW",
+    "Anchor": "EditorInactiveSelectionFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Shell",
+      "ControlSolidFillDefault",
+      "Background"
+    ],
+    "Before": "FF43516D",
+    "After": "FF313B50",
+    "Type": "CT_RAW",
+    "Anchor": "ControlSolidFillDefault"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "Comment",
+      "Foreground"
+    ],
+    "Before": "FF748395",
+    "After": "FF8190A2",
+    "Type": "CT_RAW",
+    "Anchor": null,
+    "Reason": "Approved comment-only exception; exact role list, no RGB replacement"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "XAML Comment",
+      "Foreground"
+    ],
+    "Before": "FF748395",
+    "After": "FF8190A2",
+    "Type": "CT_RAW",
+    "Anchor": null,
+    "Reason": "Approved comment-only exception; exact role list, no RGB replacement"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor Language Service Items",
+      "XML Comment",
+      "Foreground"
+    ],
+    "Before": "FF748395",
+    "After": "FF8190A2",
+    "Type": "CT_RAW",
+    "Anchor": null,
+    "Reason": "Approved comment-only exception; exact role list, no RGB replacement"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "CSS Comment",
+      "Foreground"
+    ],
+    "Before": "FF748395",
+    "After": "FF8190A2",
+    "Type": "CT_RAW",
+    "Anchor": null,
+    "Reason": "Approved comment-only exception; exact role list, no RGB replacement"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "HTML Comment",
+      "Foreground"
+    ],
+    "Before": "FF748395",
+    "After": "FF8190A2",
+    "Type": "CT_RAW",
+    "Anchor": null,
+    "Reason": "Approved comment-only exception; exact role list, no RGB replacement"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "regex - comment",
+      "Foreground"
+    ],
+    "Before": "FF748395",
+    "After": "FF8190A2",
+    "Type": "CT_RAW",
+    "Anchor": null,
+    "Reason": "Approved comment-only exception; exact role list, no RGB replacement"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "VBScript Comment",
+      "Foreground"
+    ],
+    "Before": "FF748395",
+    "After": "FF8190A2",
+    "Type": "CT_RAW",
+    "Anchor": null,
+    "Reason": "Approved comment-only exception; exact role list, no RGB replacement"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "XML Doc Comment",
+      "Foreground"
+    ],
+    "Before": "FF748395",
+    "After": "FF8190A2",
+    "Type": "CT_RAW",
+    "Anchor": null,
+    "Reason": "Approved comment-only exception; exact role list, no RGB replacement"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - comment",
+      "Foreground"
+    ],
+    "Before": "FF748395",
+    "After": "FF8190A2",
+    "Type": "CT_RAW",
+    "Anchor": null,
+    "Reason": "Approved comment-only exception; exact role list, no RGB replacement"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml doc comment - text",
+      "Foreground"
+    ],
+    "Before": "FF748395",
+    "After": "FF8190A2",
+    "Type": "CT_RAW",
+    "Anchor": null,
+    "Reason": "Approved comment-only exception; exact role list, no RGB replacement"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "xml literal - comment",
+      "Foreground"
+    ],
+    "Before": "FF748395",
+    "After": "FF8190A2",
+    "Type": "CT_RAW",
+    "Anchor": null,
+    "Reason": "Approved comment-only exception; exact role list, no RGB replacement"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor Text Manager Items",
+      "Selected Text",
+      "Background"
+    ],
+    "Before": "FF2B405A",
+    "After": "FF162247",
+    "Type": "CT_RAW",
+    "Anchor": "EditorActiveSelectionFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Shell",
+      "ControlSolidFillDefault",
+      "Background"
+    ],
+    "Before": "FF43536A",
+    "After": "FF323E53",
+    "Type": "CT_RAW",
+    "Anchor": "ControlSolidFillDefault"
+  }
+]

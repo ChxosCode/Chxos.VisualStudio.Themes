@@ -1,0 +1,55 @@
+@using Microsoft.JSInterop
+@inherits LayoutComponentBase
+@implements IAsyncDisposable
+@inject IJSRuntime JS
+@inject NavigationManager Navigation
+
+<section @ref="shell" class="semantic-review">
+    <FixtureBadge Value="@count" />
+    @if (count > 0)
+    {
+        <span title="@Navigation.Uri">@Body</span>
+    }
+    else
+    {
+        <span>Waiting for initialization</span>
+    }
+</section>
+
+@code {
+    private ElementReference shell;
+    private IJSObjectReference? module;
+    private Task? initialization;
+    private bool disposed;
+    private int count;
+
+    /// <summary>Compare type, keyword, member and local classifications.</summary>
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (disposed) return;
+        if (firstRender)
+        {
+            initialization = InitializeAsync();
+            await initialization;
+        }
+        else if (module is not null)
+        {
+            await module.InvokeVoidAsync("update", shell);
+        }
+    }
+
+    private async Task InitializeAsync()
+    {
+        module = await JS.InvokeAsync<IJSObjectReference>("import", "./review.js");
+        var reference = shell;
+        count = reference.Id.Length;
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        disposed = true;
+        if (module is null) return;
+        try { await module.DisposeAsync(); }
+        catch (JSDisconnectedException) { return; }
+    }
+}

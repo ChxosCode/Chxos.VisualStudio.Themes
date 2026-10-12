@@ -1,0 +1,46 @@
+[
+  {
+    "Kind": "implementation",
+    "Record": {
+      "id": "SEL-PAINTER-1810",
+      "assembly": {
+        "Name": "Microsoft.VisualStudio.Platform.VSEditor.dll",
+        "FileVersion": "18.10.106.50897",
+        "Sha256": "482967A9768A9269564E9606C1085EC5BC213C1F4EDF37ECA202BD49D175DC26"
+      },
+      "date": "2026-09-12",
+      "locations": [
+        "SelectionAdornment constructor",
+        "GradientBrushSelectionPainter.Activate",
+        "BrushSelectionPainter.CreatePainter",
+        "SelectionAdornmentLayer.CreateAndSetPainter"
+      ],
+      "result": "Normal active/inactive selection preserves syntax foregrounds. The opaque background brush is displayed with selection-element opacity 0.4 and containing-layer opacity 1 over the editor. Baseline Foundation C# and Razor compressed captures corroborate the calculation approximately; exact rounding, other versions, High Contrast and overlap precedence remain unverified. BackgroundPen is consumed but no supported data-only mapping was established."
+    }
+  },
+  {
+    "Kind": "implementation",
+    "Record": {
+      "id": "SEL-FONTS-1810",
+      "assembly": {
+        "Name": "Microsoft.VisualStudio.Editor.Implementation.dll",
+        "FileVersion": "18.10.106.50897",
+        "Sha256": "178F3E2BEB27DCEE684B1883873DD01531F3577E9E23EEE539E1C760470A2F90"
+      },
+      "date": "2026-09-12",
+      "locations": [
+        "FontsAndColorsHelper.GetWpfColor",
+        "FontsAndColorsHelper.FillDictionaryBackground"
+      ],
+      "result": "The valid raw branch converts Win32 RGB to an opaque WPF color and frozen SolidColorBrush. Background/BackgroundColor are assigned; no BackgroundPen assignment was identified. Authored alpha is not the selection-element opacity; other validity branches require separate resolution."
+    }
+  },
+  {
+    "Kind": "project-decision",
+    "Record": {
+      "id": "SEL-CALCULATION",
+      "date": "2026-09-12",
+      "result": "Apply the balanced 112-component selection refinement across thirteen themes. Enforce 4.5:1 on 85 resolved roles in each normal selection state using one encoded-sRGB interpolation at 40%, rounding once with floor(channel+0.5). Per-theme bounds are project regression choices, not Microsoft or WCAG requirements. Retain raw source diagnostics and unresolved classifications separately. Amberroot current-line/inactive hierarchy remains a non-enforcing investigation. Candidate runtime acceptance remains pending."
+    }
+  }
+]

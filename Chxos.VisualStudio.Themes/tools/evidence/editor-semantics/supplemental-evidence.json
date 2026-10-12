@@ -1,0 +1,53 @@
+[
+  {
+    "Kind": "project-decision",
+    "Record": {
+      "id": "SEMANTIC-PALETTE-DECISION",
+      "date": "2026-09-09",
+      "result": "The project requires restoring C# and Razor semantic differentiation across all thirteen palettes. Struct/enum, interface/type-parameter, control-flow and Razor-directive foregrounds become distinct role anchors; class, ordinary keyword, member inheritance and shell colors remain. Existing 4.5 contrast and 0.06 OKLab source regression floors are retained. Numerical passes do not establish runtime acceptance."
+    }
+  },
+  {
+    "Kind": "documentation",
+    "Record": {
+      "id": "SEMANTIC-ROSLYN",
+      "url": "https://raw.githubusercontent.com/dotnet/roslyn/660df145e35572c84bef325bf7d846aefef0500b/src/Workspaces/CSharp/Portable/Classification/ClassificationHelpers.cs",
+      "sections": [
+        "GetClassificationForType",
+        "IsControlKeywordKind",
+        "IsControlStatementKind"
+      ],
+      "applicability": "Microsoft primary repository source at commit 660df145e35572c84bef325bf7d846aefef0500b. Classification semantics only; not universal color values or proof of the installed IDE pipeline.",
+      "retrievedDate": "2026-09-09",
+      "SourceSha256": "e541dad48f20fa3c7752996c146a0c0695ca4c9b47a6762cc6815ed89bb7932e"
+    }
+  },
+  {
+    "Kind": "documentation",
+    "Record": {
+      "id": "SEMANTIC-RECORDS",
+      "url": "https://raw.githubusercontent.com/dotnet/roslyn/660df145e35572c84bef325bf7d846aefef0500b/src/EditorFeatures/Core/Classification/ClassificationTypeDefinitions.cs",
+      "sections": [
+        "RecordClassName BaseDefinition ClassName",
+        "RecordStructName BaseDefinition StructName"
+      ],
+      "applicability": "Microsoft primary repository source at commit 660df145e35572c84bef325bf7d846aefef0500b. Classification semantics only; not universal color values or proof of the installed IDE pipeline.",
+      "retrievedDate": "2026-09-09",
+      "SourceSha256": "3d37fc0c8594a8a060c9e83a9556e8d67dec509bfa03f31118bc321556b067f3"
+    }
+  },
+  {
+    "Kind": "documentation",
+    "Record": {
+      "id": "SEMANTIC-RAZOR",
+      "url": "https://raw.githubusercontent.com/dotnet/razor/58ec96978ef4e5823b54e960b9fd64cff45d7e68/src/Razor/src/Microsoft.CodeAnalysis.Razor.Workspaces/SemanticTokens/SemanticTokensVisitor.cs",
+      "sections": [
+        "VisitRazorDirectiveBody",
+        "VisitCSharpTransition"
+      ],
+      "applicability": "Microsoft primary repository source at commit 58ec96978ef4e5823b54e960b9fd64cff45d7e68. Classification semantics only; not universal color values or proof of the installed IDE pipeline.",
+      "retrievedDate": "2026-09-09",
+      "SourceSha256": "e39b6ede875371c6cc7b25f233ab29da286bec303a04fd954571c22a9f44fbe6"
+    }
+  }
+]

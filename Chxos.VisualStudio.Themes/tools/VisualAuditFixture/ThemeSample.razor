@@ -1,0 +1,25 @@
+@page "/theme-audit"
+
+<PageTitle>Cosmora Visual Audit</PageTitle>
+
+<section class="audit-card" aria-labelledby="audit-title">
+    <h1 id="audit-title">Theme classification fixture</h1>
+    <p data-state="@State">Links, components, attributes, and ordinary text must remain distinct.</p>
+    <button class="audit-action" disabled="@IsDisabled" @onclick="Activate">Activate</button>
+    <a href="https://example.invalid/theme-audit">Inspection link</a>
+    <FixtureBadge Value="@Count" />
+    @foreach (var item in Items.Where(static value => value.Length > 3))
+    {
+        <code data-length="@item.Length">@FormatItem(item, Count + 1)</code>
+    }
+</section>
+
+@code {
+    private int Count { get; set; } = 9;
+    private bool IsDisabled { get; set; } = true;
+    private string State => IsDisabled ? "disabled" : "ready";
+    private string[] Items { get; } = ["type", "method", "variable"];
+
+    private void Activate() => IsDisabled = false;
+    private static string FormatItem(string value, int number) => $"{value}: {number}";
+}

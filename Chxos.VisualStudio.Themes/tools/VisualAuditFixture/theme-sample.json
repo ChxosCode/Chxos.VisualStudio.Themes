@@ -1,0 +1,6 @@
+{
+  "theme": "Nightglass",
+  "enabled": true,
+  "count": 7,
+  "roles": ["text", "glyph", "surface", "border"]
+}

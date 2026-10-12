@@ -1,0 +1,10 @@
+[
+  {
+    "Kind": "project-decision",
+    "Record": {
+      "id": "DEFERRED-REFINEMENT-DECISION",
+      "date": "2026-09-11",
+      "result": "Migrate reviewed deferred selection and solid-control anchors in theme-scoped batches. Only Nullsector\u2019s eleven registered comments change foreground; its HTML punctuation remains separate and needs readability review. Silverphase FF323E53 retains a tight approximately 0.002 image-model margin. Exact migrated roles are recorded in changes.json. These source assignments do not establish runtime acceptance or public package ownership."
+    }
+  }
+]

@@ -1,0 +1,66 @@
+# Visual Studio user state
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.slnx.docstates
+*.opendb
+*.VC.db
+*.VC.db-*
+
+# .NET and MSBuild outputs
+**/[Bb]in/
+**/[Oo]bj/
+artifacts/
+TestResults/
+*.binlog
+
+# Legacy solution-level NuGet restore folder
+/packages/
+
+# Generated packages and symbols
+*.nupkg
+*.snupkg
+*.vsix
+*.pdb
+*.dll
+*.exe
+*.zip
+*.7z
+
+# Local tooling
+/.local/
+node_modules/
+.npm/
+.npm-cache/
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+*.bak
+*.orig
+*.rej
+*.tmp
+*.log
+*.err
+*~
+.DS_Store
+Thumbs.db
+
+# Private historical reports, captures, implementation logs, and obsolete artwork
+/REPOSITORY_REMEDIATION_PLAN.md
+/docs/audits/
+/docs/images/
+/Chxos.VisualStudio.Themes/assets/source/
+/Chxos.VisualStudio.Themes/assets/icon.png
+/Chxos.VisualStudio.Themes/assets/preview.png
+
+# Deferred generated themes; shared authoring remains public and reproducible
+/Chxos.VisualStudio.Themes/Amberroot.vstheme
+/Chxos.VisualStudio.Themes/Aquatoxic.vstheme
+/Chxos.VisualStudio.Themes/Biolume.vstheme
+/Chxos.VisualStudio.Themes/Hardline.vstheme
+/Chxos.VisualStudio.Themes/Nightglass.vstheme
+/Chxos.VisualStudio.Themes/Nullsector.vstheme
+/Chxos.VisualStudio.Themes/Silverphase.vstheme

@@ -1,0 +1,3239 @@
+[
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66D97768",
+    "After": "FF352A23",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66D97768",
+    "After": "FF352A23",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66D97768",
+    "After": "FF352A23",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66D97768",
+    "After": "FF352A23",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66D97768",
+    "After": "FF352A23",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66D97768",
+    "After": "FF352A23",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66D97768",
+    "After": "FF352A23",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66D97768",
+    "After": "FF352A23",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66D97768",
+    "After": "FF352A23",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66D97768",
+    "After": "FF352A23",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47E4B84E",
+    "After": "FF443D24",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47E4B84E",
+    "After": "FF443D24",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47E4B84E",
+    "After": "FF443D24",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47E4B84E",
+    "After": "FF443D24",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47E4B84E",
+    "After": "FF443D24",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "50D8AB52",
+    "After": "FF453D26",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "50D8AB52",
+    "After": "FF453D26",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Amberroot",
+    "File": "Amberroot.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "50D8AB52",
+    "After": "FF453D26",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66D8787C",
+    "After": "FF292E31",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFD8787C",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66D8787C",
+    "After": "FF292E31",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFD8787C",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66D8787C",
+    "After": "FF292E31",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFD8787C",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66D8787C",
+    "After": "FF292E31",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFD8787C",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66D8787C",
+    "After": "FF292E31",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFD8787C",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66D8787C",
+    "After": "FF292E31",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFD8787C",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66D8787C",
+    "After": "FF292E31",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFD8787C",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66D8787C",
+    "After": "FF292E31",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFD8787C",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66D8787C",
+    "After": "FF292E31",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFD8787C",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66D8787C",
+    "After": "FF292E31",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFD8787C",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47E7A830",
+    "After": "FF373E24",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFE7A830",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47E7A830",
+    "After": "FF373E24",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFE7A830",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47E7A830",
+    "After": "FF373E24",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFE7A830",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47E7A830",
+    "After": "FF373E24",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFE7A830",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47E7A830",
+    "After": "FF373E24",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Foreground"
+    ],
+    "Before": "FF001D20",
+    "After": "FFE7A830",
+    "Type": "CT_RAW",
+    "Anchor": null
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "668CC63F",
+    "After": "FF224627",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "668CC63F",
+    "After": "FF224627",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Aquatoxic",
+    "File": "Aquatoxic.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "668CC63F",
+    "After": "FF224627",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422327",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422327",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422327",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422327",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422327",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422327",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422327",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422327",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422327",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422327",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47FDE047",
+    "After": "FF393615",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47FDE047",
+    "After": "FF393615",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47FDE047",
+    "After": "FF393615",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47FDE047",
+    "After": "FF393615",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47FDE047",
+    "After": "FF393615",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "662DD4BF",
+    "After": "FF113B35",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "662DD4BF",
+    "After": "FF113B35",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Biolume",
+    "File": "Biolume.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "662DD4BF",
+    "After": "FF113B35",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF432431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF432431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF432431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF432431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF432431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF432431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF432431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF432431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF432431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF432431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF3E331A",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF3E331A",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF3E331A",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF3E331A",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF3E331A",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "668068E8",
+    "After": "FF262249",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "668068E8",
+    "After": "FF262249",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Cosmora",
+    "File": "Cosmora.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "668068E8",
+    "After": "FF262249",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422735",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422735",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422735",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422735",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422735",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422735",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422735",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422735",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422735",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF422735",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF3A351E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF3A351E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF3A351E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF3A351E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF3A351E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "665F78E8",
+    "After": "FF1B284B",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "665F78E8",
+    "After": "FF1B284B",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Cosmora Blueshift",
+    "File": "CosmoraBlueshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "665F78E8",
+    "After": "FF1B284B",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4F2426",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4F2426",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4F2426",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4F2426",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4F2426",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4F2426",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4F2426",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4F2426",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4F2426",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4F2426",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF46300E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF46300E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF46300E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF46300E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF46300E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "66E35F35",
+    "After": "FF471F12",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "66E35F35",
+    "After": "FF471F12",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Cosmora Redshift",
+    "File": "CosmoraRedshift.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "66E35F35",
+    "After": "FF471F12",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4C2431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4C2431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4C2431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4C2431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4C2431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4C2431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4C2431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4C2431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4C2431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66FB7185",
+    "After": "FF4C2431",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF412E19",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF412E19",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF412E19",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF412E19",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47FBBF24",
+    "After": "FF412E19",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "66A85FE4",
+    "After": "FF371F45",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "66A85FE4",
+    "After": "FF371F45",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Cosmora Ultraviolet",
+    "File": "CosmoraUltraviolet.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "66A85FE4",
+    "After": "FF371F45",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF462628",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF462628",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF462628",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF462628",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF462628",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF462628",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF462628",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF462628",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF462628",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF462628",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF3B3212",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF3B3212",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF3B3212",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF3B3212",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF3B3212",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "6660A5FA",
+    "After": "FF213147",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "6660A5FA",
+    "After": "FF213147",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Foundation",
+    "File": "Foundation.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "6660A5FA",
+    "After": "FF213147",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66FF625A",
+    "After": "FF431E1C",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66FF625A",
+    "After": "FF431E1C",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66FF625A",
+    "After": "FF431E1C",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66FF625A",
+    "After": "FF431E1C",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66FF625A",
+    "After": "FF431E1C",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66FF625A",
+    "After": "FF431E1C",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66FF625A",
+    "After": "FF431E1C",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66FF625A",
+    "After": "FF431E1C",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66FF625A",
+    "After": "FF431E1C",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66FF625A",
+    "After": "FF431E1C",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47FFD34D",
+    "After": "FF433919",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47FFD34D",
+    "After": "FF433919",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47FFD34D",
+    "After": "FF433919",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47FFD34D",
+    "After": "FF433919",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47FFD34D",
+    "After": "FF433919",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "66FFAA2B",
+    "After": "FF433011",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "66FFAA2B",
+    "After": "FF433011",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Hardline",
+    "File": "Hardline.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "66FFAA2B",
+    "After": "FF433011",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF422633",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF422633",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF422633",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF422633",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF422633",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF422633",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF422633",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF422633",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF422633",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF422633",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF312E1E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF312E1E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF312E1E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF312E1E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF312E1E",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "6638BDF8",
+    "After": "FF132D45",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "6638BDF8",
+    "After": "FF132D45",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Nightglass",
+    "File": "Nightglass.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "6638BDF8",
+    "After": "FF132D45",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66FF4D4D",
+    "After": "FF261319",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66FF4D4D",
+    "After": "FF261319",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66FF4D4D",
+    "After": "FF261319",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66FF4D4D",
+    "After": "FF261319",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66FF4D4D",
+    "After": "FF261319",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66FF4D4D",
+    "After": "FF261319",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66FF4D4D",
+    "After": "FF261319",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66FF4D4D",
+    "After": "FF261319",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66FF4D4D",
+    "After": "FF261319",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66FF4D4D",
+    "After": "FF261319",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47FFB000",
+    "After": "FF1C1811",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47FFB000",
+    "After": "FF1C1811",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47FFB000",
+    "After": "FF1C1811",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47FFB000",
+    "After": "FF1C1811",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47FFB000",
+    "After": "FF1C1811",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "66B6FF2E",
+    "After": "FF121A14",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "66B6FF2E",
+    "After": "FF121A14",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Nullsector",
+    "File": "Nullsector.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "66B6FF2E",
+    "After": "FF121A14",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF351C20",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF351C20",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF351C20",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF351C20",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF351C20",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF351C20",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF351C20",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF351C20",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF351C20",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF351C20",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF292111",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF292111",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF292111",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF292111",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF292111",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "66F27CAF",
+    "After": "FF321C29",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "66F27CAF",
+    "After": "FF321C29",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Pinknoise",
+    "File": "Pinknoise.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "66F27CAF",
+    "After": "FF321C29",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF332025",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF332025",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF332025",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF332025",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF332025",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Error)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF332025",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF332025",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF332025",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF332025",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Enabled)",
+      "Background"
+    ],
+    "Before": "66F87171",
+    "After": "FF332025",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Advanced (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF282616",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Mapped (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF282616",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF282616",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Temporary (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF282616",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Breakpoint - Dependent (Warning)",
+      "Background"
+    ],
+    "Before": "47FACC15",
+    "After": "FF282616",
+    "Type": "CT_RAW",
+    "Anchor": "EditorBreakpointWarningFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement",
+      "Background"
+    ],
+    "Before": "664DA6E6",
+    "After": "FF162737",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (new context)",
+      "Background"
+    ],
+    "Before": "664DA6E6",
+    "After": "FF162737",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  },
+  {
+    "Theme": "Silverphase",
+    "File": "Silverphase.vstheme",
+    "Key": [
+      "Text Editor MEF Items",
+      "Current Statement (historical mode)",
+      "Background"
+    ],
+    "Before": "664DA6E6",
+    "After": "FF162737",
+    "Type": "CT_RAW",
+    "Anchor": "EditorCurrentStatementFill"
+  }
+]

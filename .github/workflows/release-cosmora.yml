@@ -1,0 +1,20 @@
+name: Prepare Cosmora pack release
+run-name: Prepare Cosmora pack ${{ inputs.version }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Expected Cosmora pack version from PackageCatalog.json (for example 1.0.0)'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    uses: ./.github/workflows/release-product.yml
+    with:
+      package: cosmora
+      version: ${{ inputs.version }}

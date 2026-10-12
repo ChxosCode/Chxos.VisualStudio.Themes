@@ -1,0 +1,2389 @@
+{
+  "SchemaVersion": 1,
+  "Id": "normal-selection-18.10",
+  "Version": "18.10.106.50897",
+  "BrushOpacity": 1.0,
+  "ElementOpacity": 0.4,
+  "LayerOpacity": 1.0,
+  "Underlay": [
+    "Text Editor Text Manager Items",
+    "Plain Text",
+    "Background"
+  ],
+  "Rounding": "floor(channel + 0.5)",
+  "MinimumTextContrast": 4.5,
+  "ExtraRoles": [
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "HTML Operator",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "HTML Tag Delimiter",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "CppMemberOperatorSemanticTokenFormat",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "CppControlKeywordSyntacticTokenFormat",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "C/C++ User Keywords",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "Preprocessor Keyword",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "RazorTagHelperAttribute",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "RazorTagHelperElement",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "RazorDirectiveAttribute",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "RazorComponentAttribute",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "xml doc comment - attribute name",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "xml doc comment - attribute quotes",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "xml doc comment - attribute value",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "xml doc comment - cdata section",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "xml doc comment - delimiter",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "xml doc comment - entity reference",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "xml doc comment - name",
+      "Resolution": "opaque-raw"
+    },
+    {
+      "Category": "Text Editor MEF Items",
+      "Role": "xml doc comment - processing instruction",
+      "Resolution": "opaque-raw"
+    }
+  ],
+  "Guards": {
+    "Amberroot": {
+      "MinimumActiveVisibility": 1.58,
+      "MinimumInactiveVisibility": 1.33,
+      "MinimumStateDistance": 0.041,
+      "MaximumActiveVisibility": 1.69,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    },
+    "Aquatoxic": {
+      "MinimumActiveVisibility": 1.55,
+      "MinimumInactiveVisibility": 1.3,
+      "MinimumStateDistance": 0.05,
+      "MaximumActiveVisibility": 1.67,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    },
+    "Biolume": {
+      "MinimumActiveVisibility": 1.44,
+      "MinimumInactiveVisibility": 1.25,
+      "MinimumStateDistance": 0.04,
+      "MaximumActiveVisibility": 1.56,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    },
+    "Cosmora": {
+      "MinimumActiveVisibility": 1.44,
+      "MinimumInactiveVisibility": 1.25,
+      "MinimumStateDistance": 0.039,
+      "MaximumActiveVisibility": 1.55,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    },
+    "Cosmora Blueshift": {
+      "MinimumActiveVisibility": 1.44,
+      "MinimumInactiveVisibility": 1.24,
+      "MinimumStateDistance": 0.04,
+      "MaximumActiveVisibility": 1.55,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    },
+    "Cosmora Redshift": {
+      "MinimumActiveVisibility": 1.45,
+      "MinimumInactiveVisibility": 1.26,
+      "MinimumStateDistance": 0.038,
+      "MaximumActiveVisibility": 1.56,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    },
+    "Cosmora Ultraviolet": {
+      "MinimumActiveVisibility": 1.42,
+      "MinimumInactiveVisibility": 1.23,
+      "MinimumStateDistance": 0.039,
+      "MaximumActiveVisibility": 1.53,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    },
+    "Foundation": {
+      "MinimumActiveVisibility": 1.44,
+      "MinimumInactiveVisibility": 1.25,
+      "MinimumStateDistance": 0.038,
+      "MaximumActiveVisibility": 1.55,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    },
+    "Hardline": {
+      "MinimumActiveVisibility": 1.58,
+      "MinimumInactiveVisibility": 1.32,
+      "MinimumStateDistance": 0.047,
+      "MaximumActiveVisibility": 1.69,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    },
+    "Nightglass": {
+      "MinimumActiveVisibility": 1.45,
+      "MinimumInactiveVisibility": 1.25,
+      "MinimumStateDistance": 0.039,
+      "MaximumActiveVisibility": 1.56,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    },
+    "Nullsector": {
+      "MinimumActiveVisibility": 1.34,
+      "MinimumInactiveVisibility": 1.19,
+      "MinimumStateDistance": 0.033,
+      "MaximumActiveVisibility": 1.45,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    },
+    "Pinknoise": {
+      "MinimumActiveVisibility": 1.39,
+      "MinimumInactiveVisibility": 1.21,
+      "MinimumStateDistance": 0.041,
+      "MaximumActiveVisibility": 1.51,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    },
+    "Silverphase": {
+      "MinimumActiveVisibility": 1.41,
+      "MinimumInactiveVisibility": 1.22,
+      "MinimumStateDistance": 0.041,
+      "MaximumActiveVisibility": 1.52,
+      "Provenance": "Candidate-derived project regression bounds; visual acceptance pending"
+    }
+  },
+  "HierarchyPending": [
+    "Amberroot"
+  ],
+  "Unresolved": [
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFE7C97F",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFDBBE75",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFB6D0A0",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFB6D0A0",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFE7C97F",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFB6D0A0",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Amberroot",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF6F0DC",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFA78BFA",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Aquatoxic",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF0ECFF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFA78BFA",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Biolume",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF0ECFF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFA78BFA",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF0ECFF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFA78BFA",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Blueshift",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF0ECFF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFA78BFA",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Redshift",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF0ECFF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFA78BFA",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Cosmora Ultraviolet",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF0ECFF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFA78BFA",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Foundation",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF0ECFF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC7B9F8",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFA796F5",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFB8C7D0",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFB8C7D0",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC7B9F8",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFB8C7D0",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Hardline",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF2F4FF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFA78BFA",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF67E8F9",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nightglass",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF0ECFF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFA78BFA",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF63E6FF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF63E6FF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF63E6FF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Nullsector",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF0ECFF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFA78BFA",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFB59AF7",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFB59AF7",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC4B5FD",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFB59AF7",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Pinknoise",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF0ECFF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "HTML Server-Side Script",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "RazorCode",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "RoslynRenameConflictTag",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "Inline Rename Field Text",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC7B9F8",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "array name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "function pointer name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFA796F5",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "enum member name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF66C6E8",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "constant name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "namespace name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF66C6E8",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "label name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "00000000",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - property name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FFC7B9F8",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor MEF Items",
+        "json - constructor name",
+        "Foreground"
+      ],
+      "Type": "CT_INVALID",
+      "Source": "FF66C6E8",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    },
+    {
+      "Theme": "Silverphase",
+      "Key": [
+        "Text Editor Language Service Items",
+        "Identifier",
+        "Foreground"
+      ],
+      "Type": "CT_AUTOMATIC",
+      "Source": "FFF2F4FF",
+      "Status": "unresolved; not counted as passing",
+      "Next": "Trace base-classification/format-map resolution for this consumer; retain typed value. Marker and overlay entries need separate consumer analysis."
+    }
+  ]
+}

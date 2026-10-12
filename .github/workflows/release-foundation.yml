@@ -1,0 +1,20 @@
+name: Prepare Foundation release
+run-name: Prepare Foundation ${{ inputs.version }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Expected Foundation version from PackageCatalog.json (for example 1.0.0)'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    uses: ./.github/workflows/release-product.yml
+    with:
+      package: foundation
+      version: ${{ inputs.version }}

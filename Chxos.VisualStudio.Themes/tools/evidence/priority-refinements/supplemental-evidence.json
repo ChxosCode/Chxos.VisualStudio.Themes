@@ -1,0 +1,299 @@
+[
+  {
+    "Kind": "project-decision",
+    "Record": {
+      "id": "PRIORITY-REFINEMENT-DECISION",
+      "date": "2026-09-09",
+      "result": "The project adopts all 18 priority-theme findings, role-specific opaque image context and dedicated editor selection, with 4.5:1 enabled syntax and 0.03 OKLab active/inactive separation. Deferred themes retain existing enforcement. Values are project design choices; runtime acceptance remains separate."
+    }
+  },
+  {
+    "Kind": "implementation",
+    "Record": {
+      "id": "PRIORITY-IMAGING",
+      "assembly": {
+        "Path": "[VSINSTALLDIR]/Common7\\IDE\\Microsoft.VisualStudio.Imaging.dll",
+        "FileVersion": "18.10.1155.63130",
+        "ProductVersion": "18.10.1155+f69a7893f0",
+        "Sha256": "31915443A5DADD25C26BE5F6F0E44986B1ADDFA456C8EF179D159453301E08A8"
+      },
+      "captures": [
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.CrispImage.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "7b392b60f113d607467112b53629366096b1b05c556f494d0ac5543a7841c1c8"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.CrispImageSourceConverter.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "305d3df42ed15f6a9f0aec797ea29bc0c349afefc25979a520b7cb86001317a1"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.HslColor.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "5e839e636e53f29f61f3439ecd518fce4cd1405806d2bae19ae73635cb3d9d63"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.ImageEntry.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "04dfcd303bed55dd876844314ef9df215974581822cc0066887ea308c19d211f"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.ImageLibrary.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "5e02ada5f8df2dbdfd057cd0c702ff816519bc4c6043223d8f61e304cd25bb99"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.SingleImageBundle.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "3662f4e933bd27afa04881e9052737353f8de9ce135b4413fd891af1ecbc01b1"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.SourceDescriptor.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "57662ab64758eb31a98649b983dc761cd0c16efd7e43163187cfe59ee513e416"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.PlatformUI.ImageThemingUtilities.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "f1077d27aedbfa4715270c1eb8192b6b160c30c94ddeb996cc3d734d0342878b"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Services.VsImageService.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "9683304996a843eeeb7c57f0987e5bcd289b33cd9658c99822c3e0fdab6cb664"
+        },
+        {
+          "PrivateArtifactName": "buttonbasestyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "553ae2ad4211e9a7c0a40706c656de7330a7b104d920d6a53b56c8e6c933f461"
+        },
+        {
+          "PrivateArtifactName": "crispimagestyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "86876402051cca4fa364dcd6af7f4dbf083137f525d08748423748bb55dd56fd"
+        },
+        {
+          "PrivateArtifactName": "toolbarbuttonbasestyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "eb5dd44964bcfcc733673fc5e2bb2682b45e144737ae233c543784e9401a9071"
+        },
+        {
+          "PrivateArtifactName": "vsbuttonstyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "13f62fcac1d45fc91fced09d0167095faf543b590ed34dba0130c728645781c8"
+        },
+        {
+          "PrivateArtifactName": "vstoolbarbuttonstyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "6fdc9b7633b3a949402175259c1e8ecc639c21745cabca9c1c0c17a506a408ef"
+        },
+        {
+          "PrivateArtifactName": "vstoolbarstyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "6a569bbf07680c23a27d8724b51ccebb2eb7c28e78d271d2dd707327e2c939b0"
+        }
+      ],
+      "result": "ThemeDIBits and ThemePixelWithExtraContrast select monochrome output inside the observed HSL band for eligible images. Disabled grayscale is a separate operation. The twelve retained native probes isolate the background effect.",
+      "inspectedDate": "2026-09-09",
+      "memberLocations": [
+        "Microsoft.VisualStudio.PlatformUI.ImageThemingUtilities.ThemeDIBits",
+        "Microsoft.VisualStudio.PlatformUI.ImageThemingUtilities.ThemePixelWithExtraContrast",
+        "Microsoft.VisualStudio.PlatformUI.ImageThemingUtilities.GrayscaleDIBits"
+      ],
+      "captureScope": "Related cross-assembly consumer-chain captures retained by the before audit; the assembly object and memberLocations delimit this record claim."
+    }
+  },
+  {
+    "Kind": "implementation",
+    "Record": {
+      "id": "PRIORITY-STYLES",
+      "assembly": {
+        "Path": "[VSINSTALLDIR]/Common7\\IDE\\Microsoft.VisualStudio.Shell.Styles.dll",
+        "FileVersion": "18.10.1177.17331",
+        "ProductVersion": "18.10.1177+43b3e99e80",
+        "Sha256": "BB60F06D5550EA9260F2BB3B86DBAFD9C6FBF2E5D95194178407109355BC1045"
+      },
+      "captures": [
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.CrispImage.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "7b392b60f113d607467112b53629366096b1b05c556f494d0ac5543a7841c1c8"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.CrispImageSourceConverter.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "305d3df42ed15f6a9f0aec797ea29bc0c349afefc25979a520b7cb86001317a1"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.HslColor.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "5e839e636e53f29f61f3439ecd518fce4cd1405806d2bae19ae73635cb3d9d63"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.ImageEntry.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "04dfcd303bed55dd876844314ef9df215974581822cc0066887ea308c19d211f"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.ImageLibrary.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "5e02ada5f8df2dbdfd057cd0c702ff816519bc4c6043223d8f61e304cd25bb99"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.SingleImageBundle.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "3662f4e933bd27afa04881e9052737353f8de9ce135b4413fd891af1ecbc01b1"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.SourceDescriptor.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "57662ab64758eb31a98649b983dc761cd0c16efd7e43163187cfe59ee513e416"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.PlatformUI.ImageThemingUtilities.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "f1077d27aedbfa4715270c1eb8192b6b160c30c94ddeb996cc3d734d0342878b"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Services.VsImageService.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "9683304996a843eeeb7c57f0987e5bcd289b33cd9658c99822c3e0fdab6cb664"
+        },
+        {
+          "PrivateArtifactName": "buttonbasestyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "553ae2ad4211e9a7c0a40706c656de7330a7b104d920d6a53b56c8e6c933f461"
+        },
+        {
+          "PrivateArtifactName": "crispimagestyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "86876402051cca4fa364dcd6af7f4dbf083137f525d08748423748bb55dd56fd"
+        },
+        {
+          "PrivateArtifactName": "toolbarbuttonbasestyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "eb5dd44964bcfcc733673fc5e2bb2682b45e144737ae233c543784e9401a9071"
+        },
+        {
+          "PrivateArtifactName": "vsbuttonstyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "13f62fcac1d45fc91fced09d0167095faf543b590ed34dba0130c728645781c8"
+        },
+        {
+          "PrivateArtifactName": "vstoolbarbuttonstyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "6fdc9b7633b3a949402175259c1e8ecc639c21745cabca9c1c0c17a506a408ef"
+        },
+        {
+          "PrivateArtifactName": "vstoolbarstyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "6a569bbf07680c23a27d8724b51ccebb2eb7c28e78d271d2dd707327e2c939b0"
+        }
+      ],
+      "result": "ShellStyles.ButtonBase locally assigns ImageThemingUtilities.ImageBackgroundColor from Shell/ControlSolidFillDefault; the visible button background can remain transparent.",
+      "inspectedDate": "2026-09-09",
+      "memberLocations": [
+        "Themes/Styles/buttonbasestyle.xaml:18; ImageThemingUtilities.ImageBackgroundColor setter"
+      ],
+      "captureScope": "Related cross-assembly consumer-chain captures retained by the before audit; the assembly object and memberLocations delimit this record claim."
+    }
+  },
+  {
+    "Kind": "implementation",
+    "Record": {
+      "id": "PRIORITY-SHELL",
+      "assembly": {
+        "Path": "[VSINSTALLDIR]/Common7\\IDE\\Microsoft.VisualStudio.Shell.UI.Internal.dll",
+        "FileVersion": "18.10.1179.40416",
+        "ProductVersion": "18.10.1179+9de000411b",
+        "Sha256": "AF539FE7C6014DB3C02199F1B2C1F43E45826F39516641385C2CACC7BC710877"
+      },
+      "captures": [
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.CrispImage.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "7b392b60f113d607467112b53629366096b1b05c556f494d0ac5543a7841c1c8"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.CrispImageSourceConverter.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "305d3df42ed15f6a9f0aec797ea29bc0c349afefc25979a520b7cb86001317a1"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.HslColor.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "5e839e636e53f29f61f3439ecd518fce4cd1405806d2bae19ae73635cb3d9d63"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.ImageEntry.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "04dfcd303bed55dd876844314ef9df215974581822cc0066887ea308c19d211f"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.ImageLibrary.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "5e02ada5f8df2dbdfd057cd0c702ff816519bc4c6043223d8f61e304cd25bb99"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.SingleImageBundle.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "3662f4e933bd27afa04881e9052737353f8de9ce135b4413fd891af1ecbc01b1"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Imaging.SourceDescriptor.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "57662ab64758eb31a98649b983dc761cd0c16efd7e43163187cfe59ee513e416"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.PlatformUI.ImageThemingUtilities.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "f1077d27aedbfa4715270c1eb8192b6b160c30c94ddeb996cc3d734d0342878b"
+        },
+        {
+          "PrivateArtifactName": "Microsoft.VisualStudio.Services.VsImageService.decompiled.cs",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "9683304996a843eeeb7c57f0987e5bcd289b33cd9658c99822c3e0fdab6cb664"
+        },
+        {
+          "PrivateArtifactName": "buttonbasestyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "553ae2ad4211e9a7c0a40706c656de7330a7b104d920d6a53b56c8e6c933f461"
+        },
+        {
+          "PrivateArtifactName": "crispimagestyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "86876402051cca4fa364dcd6af7f4dbf083137f525d08748423748bb55dd56fd"
+        },
+        {
+          "PrivateArtifactName": "toolbarbuttonbasestyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "eb5dd44964bcfcc733673fc5e2bb2682b45e144737ae233c543784e9401a9071"
+        },
+        {
+          "PrivateArtifactName": "vsbuttonstyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "13f62fcac1d45fc91fced09d0167095faf543b590ed34dba0130c728645781c8"
+        },
+        {
+          "PrivateArtifactName": "vstoolbarbuttonstyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "6fdc9b7633b3a949402175259c1e8ecc639c21745cabca9c1c0c17a506a408ef"
+        },
+        {
+          "PrivateArtifactName": "vstoolbarstyle.xaml",
+          "ArtifactAvailability": "Private inspection record; not distributed.",
+          "Sha256": "6a569bbf07680c23a27d8724b51ccebb2eb7c28e78d271d2dd707327e2c939b0"
+        }
+      ],
+      "result": "VsToolBar button derives from ToolbarButtonBaseStyle and ShellStyles.ButtonBase; CrispImage grayscale follows disabled state. The toolbar layered background and shell base form the resting visible underlay.",
+      "inspectedDate": "2026-09-09",
+      "memberLocations": [
+        "vstoolbarstyle.xaml:78,81,95; toolbar background/border/image context",
+        "toolbarbuttonbasestyle.xaml; BasedOn ShellStyles.ButtonBase",
+        "crispimagestyle.xaml; Grayscale and IsEnabled binding"
+      ],
+      "captureScope": "Related cross-assembly consumer-chain captures retained by the before audit; the assembly object and memberLocations delimit this record claim."
+    }
+  }
+]

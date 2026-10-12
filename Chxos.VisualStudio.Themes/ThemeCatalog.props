@@ -1,0 +1,31 @@
+<Project>
+  <!-- Generated from authoring/ThemeCatalog.json. -->
+  <ItemGroup>
+    <None Include="Amberroot.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="Amberroot.vstheme" />
+    <None Include="Aquatoxic.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="Aquatoxic.vstheme" />
+    <None Include="Biolume.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="Biolume.vstheme" />
+    <None Include="Cosmora.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="Cosmora.vstheme" />
+    <None Include="CosmoraBlueshift.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="CosmoraBlueshift.vstheme" />
+    <None Include="CosmoraRedshift.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="CosmoraRedshift.vstheme" />
+    <None Include="CosmoraUltraviolet.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="CosmoraUltraviolet.vstheme" />
+    <None Include="Foundation.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="Foundation.vstheme" />
+    <None Include="Hardline.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="Hardline.vstheme" />
+    <None Include="Nightglass.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="Nightglass.vstheme" />
+    <None Include="Nullsector.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="Nullsector.vstheme" />
+    <None Include="Pinknoise.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="Pinknoise.vstheme" />
+    <None Include="Silverphase.vstheme"><SubType>Designer</SubType></None>
+    <CosmoraTheme Include="Silverphase.vstheme" />
+  </ItemGroup>
+</Project>

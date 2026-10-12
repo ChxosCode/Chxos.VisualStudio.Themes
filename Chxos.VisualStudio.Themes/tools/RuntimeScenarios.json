@@ -1,0 +1,374 @@
+[
+  {
+    "Id": "editor-rgb-diff",
+    "Required": true,
+    "StateRequirement": "Open VisualAuditFixture/Diff/Before.cs and After.cs in a side-by-side diff. Review added/deleted line fills, changed-word borders, syntax, large empty-region hatching, and the shared overview viewport pen. Compare with official Dark at the same zoom and display scale.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "editor-rgb-symbols",
+    "Required": true,
+    "StateRequirement": "Place the caret inside family in HighlightScenarios.cs. Verify simultaneous definition/reference highlights with syntax preserved and visible borders; then exercise Find, brace matching, active and inactive selection.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "editor-rgb-secondary",
+    "Required": true,
+    "StateRequirement": "Review affected merge, Peek, snippets, embedded language, coverage, call-return, Output, Find Results, and command/debug-console selection fills in their actual consumers. Retain diagnostic and breakpoint consumer uncertainty as pending; never credit an unreached state from a source calculation.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "main-shell",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "empty-workspace",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "document-tabs",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "output",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "editor-current-line",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "editor-find",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "editor-reference",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "editor-active-selection",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "editor-inactive-selection",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "solution-title-rest",
+    "Required": true,
+    "StateRequirement": "Show the VS2026 solution-name badge and a movable top toolbar together. Confirm matching layered fills and shared border appearance, readable text, and no accent tint in the resting title.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "solution-title-hover",
+    "Required": true,
+    "StateRequirement": "Hover the modern solution-name badge with a movable toolbar visible. Confirm the title remains cohesive and readable; do not infer the modern state from legacy MainWindowSolutionName colors.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "solution-title-focus",
+    "Required": true,
+    "StateRequirement": "Exercise keyboard navigation around the modern solution-name badge and toolbar. Record actual focusable controls and visible focus treatment; do not claim a focused badge when it is not focusable.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "solution-title-inactive",
+    "Required": true,
+    "StateRequirement": "Deactivate the IDE with the modern solution-name badge and movable toolbar visible. Confirm cohesive fills and borders and legible title text on the same captured window.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "class-view-scrollbar-rest",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "class-view-scrollbar-hover",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "class-view-scrollbar-pressed",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "interaction-rest",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "interaction-toolbar-hover",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "interaction-zoom-hover",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "interaction-keyboard-focus",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "menu",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "csharp",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "razor",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "html",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "css",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "json",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "xml",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "markdown",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "razor-find",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "css-find",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "html-find",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "developer-powershell",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "extension-manager",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "options",
+    "Required": true,
+    "StateRequirement": "Confirm the named IDE state in both captures before acceptance.",
+    "Capture": "existing-runner"
+  },
+  {
+    "Id": "dialog-active-action",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "notification-badges",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "notification-window-buttons",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "notification-toast-states",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "notification-list-states",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "team-explorer-tiles",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "tree-selection-glyphs",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "tree-drag-over",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "checkbox-states",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "infobar-links-close",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "header-search-glyphs",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "navigate-to-results",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "output-url-selection",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "new-project-links",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "document-card-links",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "inline-diagnostics",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "analysis-selections",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "legacy-consumer-dispositions",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "display-scaling",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "text-scaling",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "independent-editor-appearance",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "grayscale",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "color-vision",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "extended-tabs",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  },
+  {
+    "Id": "floating-auto-hidden-panels",
+    "Required": true,
+    "StateRequirement": "Confirm affected rest/hover/pressed/focus/selected/inactive states as applicable; retain consumer and underlay evidence.",
+    "Capture": "manual-review"
+  }
+]

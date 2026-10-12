@@ -1,0 +1,70 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated from authoring/PackageCatalog.json. Do not edit. -->
+  <PropertyGroup Condition="'$(ThemePackage)' == 'foundation'">
+    <ThemePackageKnown>true</ThemePackageKnown>
+    <ThemePackageKey>foundation</ThemePackageKey>
+    <ThemePackageVersion>1.0.0</ThemePackageVersion>
+    <ThemePackageIdentity>Chxos.Foundation.VisualStudio.Theme</ThemePackageIdentity>
+    <ThemePackageIcon>assets/packages/foundation/icon.png</ThemePackageIcon>
+    <ThemePackagePreview>assets/packages/foundation/preview.png</ThemePackagePreview>
+    <ThemePackageManifest>packaging/generated/foundation/source.extension.vsixmanifest</ThemePackageManifest>
+    <TargetVsixContainerName>foundation-1.0.0.vsix</TargetVsixContainerName>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(ThemePackage)' == 'foundation'">
+    <SelectedTheme Include="Foundation.vstheme" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(ThemePackage)' == 'pinknoise'">
+    <ThemePackageKnown>true</ThemePackageKnown>
+    <ThemePackageKey>pinknoise</ThemePackageKey>
+    <ThemePackageVersion>1.0.0</ThemePackageVersion>
+    <ThemePackageIdentity>Chxos.Pinknoise.VisualStudio.Theme</ThemePackageIdentity>
+    <ThemePackageIcon>assets/packages/pinknoise/icon.png</ThemePackageIcon>
+    <ThemePackagePreview>assets/packages/pinknoise/preview.png</ThemePackagePreview>
+    <ThemePackageManifest>packaging/generated/pinknoise/source.extension.vsixmanifest</ThemePackageManifest>
+    <TargetVsixContainerName>pinknoise-1.0.0.vsix</TargetVsixContainerName>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(ThemePackage)' == 'pinknoise'">
+    <SelectedTheme Include="Pinknoise.vstheme" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(ThemePackage)' == 'cosmora'">
+    <ThemePackageKnown>true</ThemePackageKnown>
+    <ThemePackageKey>cosmora</ThemePackageKey>
+    <ThemePackageVersion>1.0.0</ThemePackageVersion>
+    <ThemePackageIdentity>Chxos.Cosmora.VisualStudio.ThemePack</ThemePackageIdentity>
+    <ThemePackageIcon>assets/packages/cosmora/icon.png</ThemePackageIcon>
+    <ThemePackagePreview>assets/packages/cosmora/preview.png</ThemePackagePreview>
+    <ThemePackageManifest>packaging/generated/cosmora/source.extension.vsixmanifest</ThemePackageManifest>
+    <TargetVsixContainerName>cosmora-1.0.0.vsix</TargetVsixContainerName>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(ThemePackage)' == 'cosmora'">
+    <SelectedTheme Include="Cosmora.vstheme" />
+    <SelectedTheme Include="CosmoraBlueshift.vstheme" />
+    <SelectedTheme Include="CosmoraRedshift.vstheme" />
+    <SelectedTheme Include="CosmoraUltraviolet.vstheme" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(ThemePackage)' == 'all-dev'">
+    <ThemePackageKnown>true</ThemePackageKnown>
+    <ThemePackageKey>all-dev</ThemePackageKey>
+    <ThemePackageVersion>1.0.0</ThemePackageVersion>
+    <ThemePackageIdentity>Chxos.Themes.VisualStudio.AllDev</ThemePackageIdentity>
+    <ThemePackageIcon>assets/packages/all-dev/icon.png</ThemePackageIcon>
+    <ThemePackagePreview>assets/packages/all-dev/preview.png</ThemePackagePreview>
+    <ThemePackageManifest>packaging/generated/all-dev/source.extension.vsixmanifest</ThemePackageManifest>
+    <TargetVsixContainerName>all-dev-1.0.0.vsix</TargetVsixContainerName>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(ThemePackage)' == 'all-dev'">
+    <SelectedTheme Include="Amberroot.vstheme" />
+    <SelectedTheme Include="Aquatoxic.vstheme" />
+    <SelectedTheme Include="Biolume.vstheme" />
+    <SelectedTheme Include="Cosmora.vstheme" />
+    <SelectedTheme Include="CosmoraBlueshift.vstheme" />
+    <SelectedTheme Include="CosmoraRedshift.vstheme" />
+    <SelectedTheme Include="CosmoraUltraviolet.vstheme" />
+    <SelectedTheme Include="Foundation.vstheme" />
+    <SelectedTheme Include="Hardline.vstheme" />
+    <SelectedTheme Include="Nightglass.vstheme" />
+    <SelectedTheme Include="Nullsector.vstheme" />
+    <SelectedTheme Include="Pinknoise.vstheme" />
+    <SelectedTheme Include="Silverphase.vstheme" />
+  </ItemGroup>
+</Project>

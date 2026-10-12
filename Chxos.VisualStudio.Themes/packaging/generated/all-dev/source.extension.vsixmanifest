@@ -1,0 +1,27 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="Chxos.Themes.VisualStudio.AllDev" Version="1.0.0" Language="en-US" Publisher="Chxos" />
+    <DisplayName>Theme Collection — Development</DisplayName>
+    <Description xml:space="preserve">Theme Collection — Development: Amberroot, Aquatoxic, Biolume, Cosmora, Cosmora Blueshift, Cosmora Redshift, Cosmora Ultraviolet, Foundation, Hardline, Nightglass, Nullsector, Pinknoise, Silverphase. Themes for Visual Studio 2026.</Description>
+    <MoreInfo>https://github.com/ChxosCode/Chxos.VisualStudio.Themes</MoreInfo>
+    <License>LICENSE.txt</License>
+    <ReleaseNotes>https://github.com/ChxosCode/Chxos.VisualStudio.Themes/releases</ReleaseNotes>
+    <Icon>assets\icon.png</Icon>
+    <PreviewImage>assets\preview.png</PreviewImage>
+    <Tags>visual studio;2026;dark;all-dev;theme</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[18.0,19.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[18.0,19.0)">
+      <ProductArchitecture>arm64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" DisplayName="Visual Studio core editor" Version="[18.0,19.0)" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" d:Source="Project" d:ProjectName="%CurrentProject%" />
+  </Assets>
+</PackageManifest>

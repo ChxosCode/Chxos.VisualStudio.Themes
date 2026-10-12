@@ -1,0 +1,231 @@
+{
+  "findings": [
+    {
+      "id": "DA-F01",
+      "priority": "P1",
+      "title": "Output URL check assumes an unverified alpha background",
+      "assessment": "mismatch",
+      "parentRule": "DR-030",
+      "sourceLocations": [
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 2361,
+          "endLine": 2368
+        }
+      ],
+      "consumerEvidence": [
+        "CON-FONTS",
+        "CON-OUTPUT"
+      ],
+      "sourceIds": [
+        "MS-COLORABLE",
+        "MS-COLORREF",
+        "MS-BGVALID"
+      ],
+      "consequence": "The foreground-only default has bBackgroundValid=0; final override validity is unresolved. All thirteen URL ratios pass on the ignored-background branch, but fail (1.5613–3.1857:1) if a valid override uses opaque RGB. The current ARGB blend is not established by either inspected branch.",
+      "recommendedCorrection": "Inspect final URL format properties and validity after theme/default merging; register the proven underlay/rendering behavior before proposing a color change. Conditional RGB failures are not confirmed runtime defects."
+    },
+    {
+      "id": "DA-F02",
+      "priority": "P1",
+      "title": "Active selection omitted from broad syntax checks",
+      "assessment": "mismatch",
+      "parentRule": "DR-016",
+      "sourceLocations": [
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 1543,
+          "endLine": 1574
+        },
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 1718,
+          "endLine": 1742
+        },
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 1798,
+          "endLine": 1836
+        }
+      ],
+      "consumerEvidence": [
+        "CON-SELECTION"
+      ],
+      "sourceIds": [],
+      "consequence": "59 of 273 syntax/active-fill pairs fail 4.5 across eleven themes; the broad matrix omits active selection while the selected-foreground test does not model normal selection painting.",
+      "recommendedCorrection": "Add all registered syntax families to the active-selection matrix, separate High Contrast, and review the failing theme values and overlapping highlights."
+    },
+    {
+      "id": "DA-F03",
+      "priority": "P2",
+      "title": "Contrast helper rounding changes pass/fail",
+      "assessment": "mismatch",
+      "parentRule": "DR-004",
+      "sourceLocations": [
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 178,
+          "endLine": 337
+        },
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/ContextualContrast.psm1",
+          "startLine": 3,
+          "endLine": 38
+        }
+      ],
+      "consumerEvidence": [],
+      "sourceIds": [
+        "W3C-TEXT"
+      ],
+      "consequence": "FE989898 over FF303228 is 4.4916975 with fractional blending but 4.5144298 in the older helper. Separate threshold tolerances also differ.",
+      "recommendedCorrection": "Consolidate consumer-aware contrast math; retain exact intermediate channels for modeled blends and apply strict thresholds. Keep output formatting separate."
+    },
+    {
+      "id": "DA-F04",
+      "priority": "P2",
+      "title": "Status strokes are classified as normal text",
+      "assessment": "mismatch",
+      "parentRule": "DR-006",
+      "sourceLocations": [
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 555,
+          "endLine": 571
+        },
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 1130,
+          "endLine": 1138
+        }
+      ],
+      "consumerEvidence": [],
+      "sourceIds": [
+        "MS-TOKENS",
+        "W3C-NONTEXT"
+      ],
+      "consequence": "Four SystemFill status tokens receive 4.5 normal-text checks although the reference describes stroke/border uses. This can drive unnecessary recoloring and does not validate message text.",
+      "recommendedCorrection": "Identify status glyph/stroke and message-text consumers separately, then validate each against its actual adjacent surface."
+    },
+    {
+      "id": "DA-F05",
+      "priority": "P2",
+      "title": "Card ladder provenance conflicts with current reference",
+      "assessment": "mismatch",
+      "parentRule": "DR-012",
+      "sourceLocations": [
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 1285,
+          "endLine": 1305
+        }
+      ],
+      "consumerEvidence": [],
+      "sourceIds": [
+        "MS-TOKENS"
+      ],
+      "consequence": "The guide claims installed Dark control/card tiers together; configured card alpha tiers are 0F/15/08 while the current reference uses 0D/08/12. A palette difference alone is not a defect.",
+      "recommendedCorrection": "Relabel the retained card ladder as project policy unless a version-pinned installed reference supports the claim; handle any visual change as a later review."
+    },
+    {
+      "id": "DA-F06",
+      "priority": "P2",
+      "title": "Confirmed-contract enforcement exceeds retained evidence",
+      "assessment": "mismatch",
+      "parentRule": "DR-007",
+      "sourceLocations": [
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/ContextualContrast.psm1",
+          "startLine": 40,
+          "endLine": 104
+        },
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 39,
+          "endLine": 45
+        },
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 960,
+          "endLine": 979
+        }
+      ],
+      "consumerEvidence": [],
+      "sourceIds": [
+        "MS-MARKER",
+        "MS-COMPILER"
+      ],
+      "consequence": "Of 53 confirmed entries, this audit supports four, identifies nine mismatches and leaves forty uncorroborated. Together with the existing sixteen, 56 remain unresolved in this audit. Production registry labels are unchanged.",
+      "recommendedCorrection": "Require per-consumer rendering provenance and underlay/state evidence in step 2; distinguish named-pair screening from confirmation."
+    },
+    {
+      "id": "DA-F07",
+      "priority": "P2",
+      "title": "Generic raw pairs still imply text semantics",
+      "assessment": "mismatch",
+      "parentRule": "DR-005",
+      "sourceLocations": [
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 516,
+          "endLine": 554
+        },
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 1080,
+          "endLine": 1128
+        }
+      ],
+      "consumerEvidence": [
+        "CON-DIFF",
+        "CON-INLINE"
+      ],
+      "sourceIds": [
+        "MS-MARKER"
+      ],
+      "consequence": "The broad fallback calls every other unclassified raw pair normal text. Existing marker and diagnostic consumers demonstrate that component names alone are insufficient.",
+      "recommendedCorrection": "Replace inferred enforcement with explicit reviewed classifications; retain unknown pairs as advisory screening until traced."
+    },
+    {
+      "id": "DA-F08",
+      "priority": "P2",
+      "title": "Amberroot overlay checks contradict unresolved consumer status",
+      "assessment": "mismatch",
+      "parentRule": "DR-019",
+      "sourceLocations": [
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/Test-ThemeContrast.ps1",
+          "startLine": 1770,
+          "endLine": 1790
+        }
+      ],
+      "consumerEvidence": [],
+      "sourceIds": [
+        "MS-COLORABLE",
+        "MS-MARKER"
+      ],
+      "consequence": "Six statement/code-analysis checks enforce alpha-blended normal text without a verified consumer. CodeAnalysisKeyEventSelection is simultaneously unresolved in F06-063. No actual outline/text rendering is claimed here.",
+      "recommendedCorrection": "Trace statement and analysis formats individually, including native/RGB resolution, before retaining a text test or baking colors."
+    },
+    {
+      "id": "DA-F09",
+      "priority": "P2",
+      "title": "Notification checks do not match the inspected current template",
+      "assessment": "mismatch",
+      "parentRule": "DR-034",
+      "sourceLocations": [
+        {
+          "path": "Chxos.VisualStudio.Themes/tools/ContextualRelationships.json",
+          "startLine": 1,
+          "endLine": 1766
+        }
+      ],
+      "consumerEvidence": [
+        "CON-NOTIFICATIONS"
+      ],
+      "sourceIds": [],
+      "consequence": "Eight F02 title/subtitle state contracts do not describe the inspected UserNotificationsWindow item template, which uses ToolWindowText and a different normal parent surface.",
+      "recommendedCorrection": "Register the inspected template and its state chains; investigate alternate consumers before altering or removing the legacy pairs."
+    }
+  ],
+  "interpretation": "Nine underlying findings. The 64 mismatch-assessed rule sites in rules.json share these findings; they are not 64 independent defects. Unresolved records are investigation work, not proven runtime failures."
+}
