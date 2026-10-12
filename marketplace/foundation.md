@@ -12,8 +12,7 @@ Version `1.0.1` in Visual Studio Community 2026, with C# and Razor editors set t
 
 1. Install the extension and restart Visual Studio when prompted. For a manual
    install, open `foundation-1.0.1.vsix` and select your Visual Studio 2026 instance.
-2. Open **Tools > Options > All Settings > Environment > Visual Experience**.
-3. Choose **Foundation** under **Color theme** and set **Editor Appearance** to
+2. Choose **Theme > Foundation** and set **Editor Appearance** to
    **Match Theme**.
 
 ## Compatibility and preview status
@@ -27,9 +26,6 @@ Testing has focused on AMD64. ARM64 is allowed by the installer but has not been
 verified in use. Runtime review is still incomplete for some semantic colors,
 overlapping editor highlights, display configurations, and Windows High
 Contrast. Fonts and Colors overrides and other extensions can affect the result.
-
-The extension ID is unchanged from the private `1.0.0` builds. Select a built-in
-theme before uninstalling through **Extensions > Manage Extensions**.
 
 ## Feedback
 
