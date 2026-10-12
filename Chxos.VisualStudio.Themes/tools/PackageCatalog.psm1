@@ -26,7 +26,8 @@ function Assert-PackageCatalog {
         if ($package.Identity -cnotmatch '^[A-Za-z][A-Za-z0-9.]+$' -or $package.Identity.Length -gt 100 -or -not $ids.Add($package.Identity)) { throw "Invalid or duplicate package identity: '$($package.Identity)'." }
         if ($package.Version -cnotmatch '^\d+\.\d+\.\d+(\.\d+)?$') { throw "Invalid package version: '$($package.Version)'." }
         foreach ($part in $package.Version.Split('.')) { if ([decimal]$part -gt 65535) { throw 'Package version segment exceeds 65535.' } }
-        if ($package.Publisher -cne 'Chxos') { throw 'Unexpected package publisher.' }
+        if (-not $package.PSObject.Properties['Preview'] -or $package.Preview -isnot [bool]) { throw 'Package Preview must be a Boolean.' }
+        if ($package.Publisher -cne 'ChxosCode') { throw 'Package publisher must match the Marketplace display name ChxosCode.' }
         if (-not $package.DisplayName -or $package.DisplayName.Length -gt 50) { throw 'Invalid package display name.' }
         if (-not $package.Description -or $package.Description.Length -gt 1000 -or $package.Description -notmatch 'Visual Studio 2026') { throw 'Invalid package description.' }
         if (-not $package.Tags -or $package.Tags.Length -gt 100) { throw 'Invalid package tags.' }

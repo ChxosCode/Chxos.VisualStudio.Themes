@@ -41,6 +41,7 @@ foreach ($package in $catalog.Packages) {
     $manifest.PackageManifest.Metadata.Identity.Publisher = $package.Publisher
     $manifest.PackageManifest.Metadata.DisplayName = $package.DisplayName
     $manifest.PackageManifest.Metadata.Description.InnerText = $package.Description
+    $manifest.PackageManifest.Metadata.Preview = $package.Preview.ToString().ToLowerInvariant()
     $manifest.PackageManifest.Metadata.Tags = $package.Tags
     $writer = New-Object IO.StringWriter
     $settings = New-Object Xml.XmlWriterSettings

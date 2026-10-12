@@ -12,6 +12,17 @@ and VSSDK tools are pinned in `Chxos.VisualStudio.Themes/packages.lock.json`, so
 command-line packaging does not require Visual Studio. Interactive tests need
 Visual Studio 2026 with its extension-development workload and a desktop session.
 
+The VSIX installation targets and Core Editor prerequisite use `[17.14,)`.
+Visual Studio 2026 evaluates the installation target as an API version, so using
+its product version `18.0` would request an experimental API rejected by
+Marketplace. Visual Studio 2022 17.14 is also eligible, but runtime testing is on
+Visual Studio 2026. Keep product-version settings for builds and experimental
+profiles separate from the API target. See Microsoft's
+[compatibility guidance](https://learn.microsoft.com/en-us/visualstudio/extensibility/migration/extension-compatibility?view=visualstudio).
+
+The catalog publisher is `ChxosCode`, matching the Marketplace publisher display
+name. This is separate from the publisher account's ID.
+
 ## Build and test
 
 Run these commands from the repository root in PowerShell:
@@ -146,6 +157,13 @@ After pushing the workflows to the default branch, select the product in
 version. The input confirms the version without changing it. For a new version,
 update that product's catalog entry and regenerate package metadata first.
 Existing tags must match the product and version; workflows do not create tags.
+
+`Preview` in each catalog entry controls that product's Marketplace badge.
+Keep it `true` during preview testing. For a stable release, set it to `false`,
+increase that product's numeric version, and regenerate package metadata.
+Keep the extension ID and theme GUIDs unchanged. The badge does not create a
+separate update channel. [Marketplace listing drafts](../marketplace/README.md)
+contain the prepared descriptions and upload instructions.
 
 Each workflow validates the product, version, ref, and public dependencies,
 builds and inspects that product, and checks eligibility and artifact contents.

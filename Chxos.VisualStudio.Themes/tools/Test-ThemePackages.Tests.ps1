@@ -59,6 +59,9 @@ try {
     Test-Case 'missing public/deferred owner' { Reject-Catalog {param($c) $c.DeferredPublicThemes=@($c.DeferredPublicThemes | Select-Object -Skip 1)} 'do not reconcile' }
     Test-Case 'deferred and public overlap' { Reject-Catalog {param($c) $c.DeferredPublicThemes+=@('Foundation.vstheme')} 'already owned deferred' }
     Test-Case 'invalid version' { Reject-Catalog {param($c) $c.Packages[0].Version='1.0-preview'} 'Invalid package version' }
+    Test-Case 'preview must not be a string' { Reject-Catalog {param($c) $c.Packages[0].Preview='false'} 'Preview must be a Boolean' }
+    Test-Case 'preview must be explicit' { Reject-Catalog {param($c) $c.Packages[0].PSObject.Properties.Remove('Preview')} 'Preview must be a Boolean' }
+    Test-Case 'publisher must match Marketplace display name' { Reject-Catalog {param($c) $c.Packages[0].Publisher='Chxos'} 'publisher must match' }
     Test-Case 'version segment overflow' { Reject-Catalog {param($c) $c.Packages[0].Version='1.0.65536'} 'exceeds 65535' }
     Test-Case 'unsafe asset traversal' { Reject-Catalog {param($c) $c.Packages[0].Icon='../icon.png'} 'Unsafe package asset' }
     Test-Case 'missing asset' { Reject-Catalog {param($c) $c.Packages[0].Icon='assets/missing.png'} 'Missing package asset' }
@@ -92,6 +95,7 @@ try {
     Test-Case 'extra payload' { Mutate-Archive {param($z) $s=$z.CreateEntry('Pinknoise.pkgdef').Open();$s.Dispose()} 'Unexpected archive entry' }
     Test-Case 'duplicate payload' { Mutate-Archive {param($z) $s=$z.CreateEntry('Foundation.pkgdef').Open();$s.Dispose()} 'Duplicate archive entry' }
     Test-Case 'wrong identity' { Mutate-Archive {param($z) Replace-Manifest $z {param($t) $t.Replace('Chxos.Foundation.VisualStudio.Theme','Chxos.Wrong.Theme')}} 'Unexpected VSIX identity' }
+    Test-Case 'wrong publisher' { Mutate-Archive {param($z) Replace-Manifest $z {param($t) $t.Replace('Publisher="ChxosCode"','Publisher="Chxos"')}} 'Unexpected VSIX publisher' }
     Test-Case 'wrong installer JSON identity' { Mutate-Archive {
         param($z) $e=$z.GetEntry('manifest.json');$r=[IO.StreamReader]::new($e.Open());try{$t=$r.ReadToEnd()}finally{$r.Dispose()};$e.Delete()
         $w=[IO.StreamWriter]::new($z.CreateEntry('manifest.json').Open());try{$w.Write($t.Replace('Chxos.Foundation.VisualStudio.Theme','Chxos.Wrong.Theme'))}finally{$w.Dispose()}
@@ -99,6 +103,11 @@ try {
     Test-Case 'wrong version' { Mutate-Archive {param($z) Replace-Manifest $z {param($t) $t.Replace(('Version="'+$foundationSpec.Version+'"'),'Version="65535.65535.65535"')}} 'VSIX version' }
     Test-Case 'wrong presentation asset' { Mutate-Archive {param($z) $z.GetEntry('assets/icon.png').Delete();$s=$z.CreateEntry('assets/icon.png').Open();$s.WriteByte(1);$s.Dispose()} 'Wrong presentation asset' }
     Test-Case 'wrong presentation metadata' { Mutate-Archive {param($z) Replace-Manifest $z {param($t) $t.Replace('<DisplayName>Foundation Theme</DisplayName>','<DisplayName>Pinknoise Theme</DisplayName>')}} 'Manifest DisplayName' }
+    $previewElement='<Preview>'+$foundationSpec.Preview.ToString().ToLowerInvariant()+'</Preview>'
+    $otherPreview='<Preview>'+(-not $foundationSpec.Preview).ToString().ToLowerInvariant()+'</Preview>'
+    Test-Case 'wrong preview state' { Mutate-Archive {param($z) Replace-Manifest $z {param($t) $t.Replace($previewElement,$otherPreview)}} 'Manifest Preview' }
+    Test-Case 'missing preview state' { Mutate-Archive {param($z) Replace-Manifest $z {param($t) $t.Replace($previewElement,'')}} 'Manifest Preview' }
+    Test-Case 'duplicate preview state' { Mutate-Archive {param($z) Replace-Manifest $z {param($t) $t.Replace($previewElement,$previewElement+$previewElement)}} 'Manifest Preview' }
     Test-Case 'managed payload forbidden' { Mutate-Archive {param($z) $s=$z.CreateEntry('unexpected.dll').Open();$s.Dispose()} 'Managed assemblies' }
     Test-Case 'wrong registration GUID' { Mutate-Archive {
         param($z) $e=$z.GetEntry('Foundation.pkgdef');$r=[IO.StreamReader]::new($e.Open());try{$t=$r.ReadToEnd()}finally{$r.Dispose()};$e.Delete()
@@ -141,7 +150,7 @@ try {
             $copy=$environment | ConvertTo-Json -Depth 8 | ConvertFrom-Json
             switch ($kind) {
                 identity { $copy.PackageIdentity=(Get-ThemePackage 'pinknoise').Identity }
-                version { $copy.PackageVersion='1.0.1' }
+                version { $copy.PackageVersion=if ($copy.PackageVersion -ceq '0.0.0') { '0.0.1' } else { '0.0.0' } }
                 membership { $copy.Themes=@('Pinknoise') }
                 archive { $copy.VsixSha256='0'*64 }
                 legacy { foreach ($field in @('SchemaVersion','PackageKey','PackageIdentity','PackageVersion','Themes')) { $copy.PSObject.Properties.Remove($field) } }
@@ -182,3 +191,6 @@ finally {
     if (-not $resolved.StartsWith($allowed,[StringComparison]::OrdinalIgnoreCase) -or [IO.Path]::GetFileName($resolved) -notlike 'theme-packaging-tests-*') { throw 'Unsafe fixture cleanup path.' }
     Remove-Item -LiteralPath $resolved -Recurse -Force
 }
+# Negative child-process tests deliberately leave a nonzero native exit code.
+# Clear it only after every assertion and fixture cleanup has succeeded.
+$global:LASTEXITCODE = 0

@@ -4,14 +4,15 @@
     {
       "Key": "foundation",
       "Identity": "Chxos.Foundation.VisualStudio.Theme",
-      "Version": "1.0.0",
-      "Publisher": "Chxos",
+      "Version": "1.0.1",
+      "Preview": true,
+      "Publisher": "ChxosCode",
       "DisplayName": "Foundation Theme",
       "Themes": [
         "Foundation.vstheme"
       ],
       "Distribution": "public",
-      "Description": "Foundation Theme: Foundation. Themes for Visual Studio 2026.",
+      "Description": "A charcoal dark theme with blue accents for Visual Studio 2026. Preview release.",
       "Tags": "visual studio;2026;dark;foundation;theme",
       "Icon": "assets/packages/foundation/icon.png",
       "PreviewImage": "assets/packages/foundation/preview.png"
@@ -19,14 +20,15 @@
     {
       "Key": "pinknoise",
       "Identity": "Chxos.Pinknoise.VisualStudio.Theme",
-      "Version": "1.0.0",
-      "Publisher": "Chxos",
+      "Version": "1.0.1",
+      "Preview": true,
+      "Publisher": "ChxosCode",
       "DisplayName": "Pinknoise Theme",
       "Themes": [
         "Pinknoise.vstheme"
       ],
       "Distribution": "public",
-      "Description": "Pinknoise Theme: Pinknoise. Themes for Visual Studio 2026.",
+      "Description": "A plum dark theme with pink actions and cyan focus cues for Visual Studio 2026. Preview release.",
       "Tags": "visual studio;2026;dark;pinknoise;theme",
       "Icon": "assets/packages/pinknoise/icon.png",
       "PreviewImage": "assets/packages/pinknoise/preview.png"
@@ -34,8 +36,9 @@
     {
       "Key": "cosmora",
       "Identity": "Chxos.Cosmora.VisualStudio.ThemePack",
-      "Version": "1.0.0",
-      "Publisher": "Chxos",
+      "Version": "1.0.1",
+      "Preview": true,
+      "Publisher": "ChxosCode",
       "DisplayName": "Cosmora Theme Pack",
       "Themes": [
         "Cosmora.vstheme",
@@ -44,7 +47,7 @@
         "CosmoraUltraviolet.vstheme"
       ],
       "Distribution": "public",
-      "Description": "Cosmora Theme Pack: Cosmora, Cosmora Blueshift, Cosmora Redshift, Cosmora Ultraviolet. Themes for Visual Studio 2026.",
+      "Description": "Four dark themes for Visual Studio 2026: Cosmora, Blueshift, Redshift, and Ultraviolet. Preview release.",
       "Tags": "visual studio;2026;dark;cosmora;theme",
       "Icon": "assets/packages/cosmora/icon.png",
       "PreviewImage": "assets/packages/cosmora/preview.png"
@@ -53,7 +56,8 @@
       "Key": "all-dev",
       "Identity": "Chxos.Themes.VisualStudio.AllDev",
       "Version": "1.0.0",
-      "Publisher": "Chxos",
+      "Preview": false,
+      "Publisher": "ChxosCode",
       "DisplayName": "Theme Collection — Development",
       "Themes": [
         "Amberroot.vstheme",

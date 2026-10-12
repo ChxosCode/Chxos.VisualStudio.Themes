@@ -169,7 +169,7 @@ try {
     Report-Case 'duplicate package' {param($r) $r.Packages[1]=$r.Packages[0]} 'Invalid package records'
     Report-Case 'unknown package' {param($r) $r.Packages[3].Key='private'} 'Invalid package records'
     Report-Case 'wrong identity' {param($r) $r.Packages[0].Identity='private'} 'metadata does not match'
-    Report-Case 'test-only version' {param($r) $r.Packages[0].Version='1.0.1'} 'metadata does not match'
+    Report-Case 'version differs from catalog' {param($r) $r.Packages[0].Version=if ($r.Packages[0].Version -ceq '0.0.0') { '0.0.1' } else { '0.0.0' }} 'metadata does not match'
     Report-Case 'internal distribution in public slot' {param($r) $r.Packages[0].Distribution='internal'} 'metadata does not match'
     Report-Case 'uninspected artifact' {param($r) $r.Packages[0].InspectionPassed=$false} 'metadata does not match'
     Report-Case 'wrong theme membership' {param($r) $r.Packages[0].Themes[0].Guid='{00000000-0000-0000-0000-000000000000}'} 'membership does not match'
@@ -215,3 +215,4 @@ try {
     Remove-Item -LiteralPath $resolved -Recurse -Force
 }
 Write-Host "Public artifact regression suite: $count cases passed."
+$global:LASTEXITCODE = 0

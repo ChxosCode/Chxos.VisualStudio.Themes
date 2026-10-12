@@ -4,19 +4,23 @@ Three dark theme products for Visual Studio 2026:
 
 | Product | Themes | Colors |
 | --- | --- | --- |
-| Foundation Theme | Foundation | Charcoal with blue accents |
-| Pinknoise Theme | Pinknoise | Plum with pink actions and cyan focus cues |
-| Cosmora Theme Pack | Cosmora, Cosmora Blueshift, Cosmora Redshift, Cosmora Ultraviolet | Purple, blue, ember, and ultraviolet palettes |
+| Foundation Theme | [Foundation](docs/screenshots/foundation.jpg) | Charcoal with blue accents |
+| Pinknoise Theme | [Pinknoise](docs/screenshots/pinknoise.jpg) | Plum with pink actions and cyan focus cues |
+| Cosmora Theme Pack | [Cosmora](docs/screenshots/cosmora.jpg), [Blueshift](docs/screenshots/cosmora-blueshift.jpg), [Redshift](docs/screenshots/cosmora-redshift.jpg), [Ultraviolet](docs/screenshots/cosmora-ultraviolet.jpg) | Purple, blue, ember, and ultraviolet palettes |
 
-The current `1.0.0` builds are for testing. There are no public downloads yet,
+The current `1.0.1` builds are previews for testing. There are no public releases yet,
 and runtime testing is still in progress.
+
+Theme links above open IDE screenshots captured from these builds in Visual
+Studio Community 2026, with C# and Razor editors set to **Match Theme**.
 
 ## Compatibility
 
-The packages target Visual Studio 2026 (18.x), Community, Professional, and
-Enterprise. Testing has focused on AMD64. The manifests allow ARM64, but it has
-not been verified in use. Visual Studio 2022, earlier versions, and Visual Studio
-Code are not supported.
+The packages target stable API version 17.14 and later, which Visual Studio 2026
+supports, across Community, Professional, and Enterprise. Runtime testing has
+focused on Visual Studio 2026 on AMD64. Visual Studio 2022 17.14 and ARM64 are
+eligible for installation but have not been tested. Earlier Visual Studio
+versions and Visual Studio Code are not supported.
 
 ## Install and configure
 
@@ -42,6 +46,7 @@ restart when prompted.
 - [Changelog](CHANGELOG.md)
 - [Contributing](CONTRIBUTING.md)
 - [Building and preparing packages](docs/DEVELOPMENT.md)
+- [Marketplace listing drafts](marketplace/README.md)
 - [Editing themes](docs/AUTHORING.md)
 
 Licensed under the [MIT License](LICENSE.txt).

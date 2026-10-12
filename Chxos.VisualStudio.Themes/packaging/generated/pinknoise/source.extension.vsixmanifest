@@ -1,8 +1,9 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Chxos.Pinknoise.VisualStudio.Theme" Version="1.0.0" Language="en-US" Publisher="Chxos" />
+    <Identity Id="Chxos.Pinknoise.VisualStudio.Theme" Version="1.0.1" Language="en-US" Publisher="ChxosCode" />
     <DisplayName>Pinknoise Theme</DisplayName>
-    <Description xml:space="preserve">Pinknoise Theme: Pinknoise. Themes for Visual Studio 2026.</Description>
+    <Description xml:space="preserve">A plum dark theme with pink actions and cyan focus cues for Visual Studio 2026. Preview release.</Description>
+    <Preview>true</Preview>
     <MoreInfo>https://github.com/ChxosCode/Chxos.VisualStudio.Themes</MoreInfo>
     <License>LICENSE.txt</License>
     <ReleaseNotes>https://github.com/ChxosCode/Chxos.VisualStudio.Themes/releases</ReleaseNotes>
@@ -11,15 +12,15 @@
     <Tags>visual studio;2026;dark;pinknoise;theme</Tags>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[18.0,19.0)">
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.14,)">
       <ProductArchitecture>amd64</ProductArchitecture>
     </InstallationTarget>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[18.0,19.0)">
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.14,)">
       <ProductArchitecture>arm64</ProductArchitecture>
     </InstallationTarget>
   </Installation>
   <Prerequisites>
-    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" DisplayName="Visual Studio core editor" Version="[18.0,19.0)" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" DisplayName="Visual Studio core editor" Version="[17.14,)" />
   </Prerequisites>
   <Assets>
     <Asset Type="Microsoft.VisualStudio.VsPackage" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" d:Source="Project" d:ProjectName="%CurrentProject%" />

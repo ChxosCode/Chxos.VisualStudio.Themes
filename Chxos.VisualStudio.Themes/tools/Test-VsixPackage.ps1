@@ -98,6 +98,9 @@ try {
     }
     $expectedVersion = [string] $selectedPackage.Version
     if ($sourceIdentity.Version -cne $expectedVersion) { throw 'Source manifest version differs from package catalog.' }
+    $expectedPreview = $selectedPackage.Preview.ToString().ToLowerInvariant()
+    $sourcePreview = @($sourceManifest.SelectNodes('/v:PackageManifest/v:Metadata/v:Preview', $sourceNamespace))
+    if ($sourcePreview.Count -ne 1 -or $sourcePreview[0].InnerText -cne $expectedPreview) { throw 'Source manifest Preview differs from package catalog.' }
     if ($expectedVersion -notmatch '^\d+(\.\d+){1,3}$') {
         throw "Source VSIX version '$expectedVersion' is not a valid numeric version."
     }
@@ -212,7 +215,7 @@ try {
             $architectures = @{}
             foreach ($target in $targets) {
                 if ($target.Id -cne 'Microsoft.VisualStudio.Community') { Add-Failure "Unexpected installation target SKU '$($target.Id)'." }
-                if ($target.Version -cne '[18.0,19.0)') { Add-Failure "Unexpected installation range '$($target.Version)'." }
+                if ($target.Version -cne '[17.14,)') { Add-Failure "Unexpected installation range '$($target.Version)'; expected stable API range '[17.14,)'." }
                 $architecture = [string] $target.ProductArchitecture
                 if ($architectures.ContainsKey($architecture)) {
                     Add-Failure "Duplicate installation architecture '$architecture'."
@@ -232,7 +235,7 @@ try {
                 if ($prerequisite.Id -cne 'Microsoft.VisualStudio.Component.CoreEditor') {
                     Add-Failure "Unexpected prerequisite '$($prerequisite.Id)'."
                 }
-                if ($prerequisite.Version -cne '[18.0,19.0)') {
+                if ($prerequisite.Version -cne '[17.14,)') {
                     Add-Failure "Unexpected prerequisite range '$($prerequisite.Version)'."
                 }
             }
@@ -246,6 +249,7 @@ try {
             }
 
             $metadataChecks = [ordered] @{
+                'Preview' = $expectedPreview
                 'DisplayName' = $selectedPackage.DisplayName
                 'Description' = $selectedPackage.Description
                 'Tags' = $selectedPackage.Tags
@@ -256,8 +260,8 @@ try {
                 'PreviewImage' = 'assets\preview.png'
             }
             foreach ($elementName in $metadataChecks.Keys) {
-                $node = $manifest.SelectSingleNode("/v:PackageManifest/v:Metadata/v:$elementName", $namespace)
-                if ($null -eq $node -or $node.InnerText -cne $metadataChecks[$elementName]) {
+                $nodes = @($manifest.SelectNodes("/v:PackageManifest/v:Metadata/v:$elementName", $namespace))
+                if ($nodes.Count -ne 1 -or $nodes[0].InnerText -cne $metadataChecks[$elementName]) {
                     Add-Failure "Manifest $elementName must be '$($metadataChecks[$elementName])'."
                 }
             }
@@ -302,7 +306,7 @@ Write-Host "  Package: $resolvedPath"
 Write-Host "  Identity: $($selectedPackage.Identity) ($Package)"
 Write-Host "  Version: $expectedVersion"
 Write-Host "  Themes: $($expectedThemes.Count)"
-Write-Host '  Visual Studio: 2026 (18.x only)'
+Write-Host '  API target: 17.14 and later (Visual Studio 2026; Visual Studio 2022 17.14 eligible but untested)'
 Write-Host '  Architectures: amd64, arm64'
 Write-Host '  Managed payload: none'
 exit 0

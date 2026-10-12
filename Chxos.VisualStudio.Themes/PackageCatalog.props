@@ -3,12 +3,12 @@
   <PropertyGroup Condition="'$(ThemePackage)' == 'foundation'">
     <ThemePackageKnown>true</ThemePackageKnown>
     <ThemePackageKey>foundation</ThemePackageKey>
-    <ThemePackageVersion>1.0.0</ThemePackageVersion>
+    <ThemePackageVersion>1.0.1</ThemePackageVersion>
     <ThemePackageIdentity>Chxos.Foundation.VisualStudio.Theme</ThemePackageIdentity>
     <ThemePackageIcon>assets/packages/foundation/icon.png</ThemePackageIcon>
     <ThemePackagePreview>assets/packages/foundation/preview.png</ThemePackagePreview>
     <ThemePackageManifest>packaging/generated/foundation/source.extension.vsixmanifest</ThemePackageManifest>
-    <TargetVsixContainerName>foundation-1.0.0.vsix</TargetVsixContainerName>
+    <TargetVsixContainerName>foundation-1.0.1.vsix</TargetVsixContainerName>
   </PropertyGroup>
   <ItemGroup Condition="'$(ThemePackage)' == 'foundation'">
     <SelectedTheme Include="Foundation.vstheme" />
@@ -16,12 +16,12 @@
   <PropertyGroup Condition="'$(ThemePackage)' == 'pinknoise'">
     <ThemePackageKnown>true</ThemePackageKnown>
     <ThemePackageKey>pinknoise</ThemePackageKey>
-    <ThemePackageVersion>1.0.0</ThemePackageVersion>
+    <ThemePackageVersion>1.0.1</ThemePackageVersion>
     <ThemePackageIdentity>Chxos.Pinknoise.VisualStudio.Theme</ThemePackageIdentity>
     <ThemePackageIcon>assets/packages/pinknoise/icon.png</ThemePackageIcon>
     <ThemePackagePreview>assets/packages/pinknoise/preview.png</ThemePackagePreview>
     <ThemePackageManifest>packaging/generated/pinknoise/source.extension.vsixmanifest</ThemePackageManifest>
-    <TargetVsixContainerName>pinknoise-1.0.0.vsix</TargetVsixContainerName>
+    <TargetVsixContainerName>pinknoise-1.0.1.vsix</TargetVsixContainerName>
   </PropertyGroup>
   <ItemGroup Condition="'$(ThemePackage)' == 'pinknoise'">
     <SelectedTheme Include="Pinknoise.vstheme" />
@@ -29,12 +29,12 @@
   <PropertyGroup Condition="'$(ThemePackage)' == 'cosmora'">
     <ThemePackageKnown>true</ThemePackageKnown>
     <ThemePackageKey>cosmora</ThemePackageKey>
-    <ThemePackageVersion>1.0.0</ThemePackageVersion>
+    <ThemePackageVersion>1.0.1</ThemePackageVersion>
     <ThemePackageIdentity>Chxos.Cosmora.VisualStudio.ThemePack</ThemePackageIdentity>
     <ThemePackageIcon>assets/packages/cosmora/icon.png</ThemePackageIcon>
     <ThemePackagePreview>assets/packages/cosmora/preview.png</ThemePackagePreview>
     <ThemePackageManifest>packaging/generated/cosmora/source.extension.vsixmanifest</ThemePackageManifest>
-    <TargetVsixContainerName>cosmora-1.0.0.vsix</TargetVsixContainerName>
+    <TargetVsixContainerName>cosmora-1.0.1.vsix</TargetVsixContainerName>
   </PropertyGroup>
   <ItemGroup Condition="'$(ThemePackage)' == 'cosmora'">
     <SelectedTheme Include="Cosmora.vstheme" />

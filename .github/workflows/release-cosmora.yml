@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Expected Cosmora pack version from PackageCatalog.json (for example 1.0.0)'
+        description: 'Expected Cosmora pack version from PackageCatalog.json (for example 1.0.1)'
         required: true
         type: string
 
